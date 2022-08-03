@@ -1,13 +1,5 @@
 <div id="top"></div>
 
-<div align="center">
-    <a href="https://bit.ly/3Qcg3s4">LinkedIn</a>
-    ·
-    <a href="https://bit.ly/3oRMMaA">Instagram</a>
-    ·
-    <a href="https://bit.ly/3zqrTrP">Youtube</a>
-</div>
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -190,17 +182,15 @@ Sekarang langsung masuk ke instalasi, jadi disini bakal di jelasin instalasi di 
 
     terus tambahin kayak gitu, jadi bebas pilih yang mana
 
-3. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<div align="center">
+    <h2>Follow me!</h2>
+    <a href="https://bit.ly/3Qcg3s4">LinkedIn</a>
+    ·
+    <a href="https://bit.ly/3oRMMaA">Instagram</a>
+    ·
+    <a href="https://bit.ly/3zqrTrP">Youtube</a>
+</div>
