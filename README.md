@@ -11,7 +11,7 @@
     <a href="https://github.com/falahdrrhmn/Tutorial-Java"><strong>Code lengkap »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/falahdrrhmn/Tutorial-Java/tree/main/Java%20Basic#readme">Java Basic</a>
+    <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/README.md">Java Basic</a>
     ·
     <a href="https://github.com/">Java OOP</a>
     ·
@@ -32,7 +32,7 @@
       </ul>
     </li>
     <li>
-      <a href="https://github.com/falahdrrhmn/Tutorial-Java/tree/main/Java%20Basic#readme">Java Basic</a>
+      <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/README.md">Java Basic</a>
       <ul>
         <li><a href="#built-with">Sejarah Java</a></li>
         <li><a href="#built-with">Syntax Dasar Hello World!</a></li>
