@@ -45,7 +45,15 @@
 
 ## Java Casting
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Jadi singkatnya gini, kalo di casting itu maksudnya merubah suatu tipe data, misalnya tipe data integer diubah jadi string etc. 
+Di Java sendiri terdapat dua jenis casting, yakni 
+1. Widening Casting (automatically) - mengubah tipe yang lebih kecil ke ukuran tipe yang lebih besar
+contohnya: 
+byte -> short -> char -> int -> long -> float -> double
+
+2. Narrowing Casting (manually) - mengubah tipe yang lebih besar ke tipe ukuran yang lebih kecil
+contohnya: 
+double -> float -> long -> int -> char -> short -> byte
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
