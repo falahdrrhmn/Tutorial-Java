@@ -21,7 +21,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary><H3>List Tutorial Java</H3></summary>
+  <summary id="list"><H3>List Tutorial Java</H3></summary>
   <ol>
     <li>
       <a href="#Instalasi">Instalasi</a>
@@ -183,7 +183,7 @@ Sekarang langsung masuk ke instalasi, jadi disini bakal di jelasin instalasi di 
     terus tambahin kayak gitu, jadi bebas pilih yang mana
 
 
-
+<p align="left">(<a href="#top">back to list</a>)</p>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <div align="center">
