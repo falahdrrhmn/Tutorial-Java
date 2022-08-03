@@ -227,7 +227,8 @@ setelah berhasil menginstall JDK & JRE selanjutnya kita akan melakukan instalasi
 Karena lagi males + caranya gampang jadi buat downolad java di VSCode caranya tinggal kayak gini
 https://www.tutorialpemrograman.com/desktop/cara-cepat-compile-dan-run-program-java-dengan-visual-studio-code/
 
-
+<br>
+<br>
 
 
 
