@@ -109,6 +109,7 @@ Cara tau java udah keinstall apa belom
 Sekarang langsung masuk ke instalasi, jadi disini bakal di jelasin instalasi di **netbeans** dan **visual studio code**
 <div id="InstalasiJDKJRE"></div>
 #### Instalasi JDK & JRE 
+
 1. Buka website https://www.oracle.com/java/technologies/downloads/#java8-windows
     ada tampilan kayak gini nanti. nah itu dipilih dan disesuaikan dengan laptop kalian dari sistem operasi dll
     <img width="699" alt="image" src="https://user-images.githubusercontent.com/92344349/182571405-087d6a8d-c3a8-47aa-87e9-2ca4f8cc309c.png">
@@ -188,11 +189,28 @@ Sekarang langsung masuk ke instalasi, jadi disini bakal di jelasin instalasi di 
 setelah berhasil menginstall JDK & JRE selanjutnya kita akan melakukan instalasi netbeans, apabila tidak ingin menggunakan netbeans anda dapat langsung klik ini untuk skip ke instalasi visual studio code
 1. yang pertama kita buka website resmi dari dari apache netbeans terlebih dahulu, yakni https://netbeans.apache.org/download/nb14/nb14.html        
 
-<p align="right">(<a href="#list">back to list</a>)</p> 
-<p align="right">(<a href="#top">back to top</a>)</p>
+   <img width="962" alt="image" src="https://user-images.githubusercontent.com/92344349/182628425-9c535fe5-0b29-4068-a981-447fa5b604b2.png">
+   
+   Nantinya akan muncul tampilan seperti itu, tinggaal disesuain tipe laptop
+2. Terus setelah itu akan muncul tampilan seperti ini 
+
+   <img width="962" alt="image" src="https://user-images.githubusercontent.com/92344349/182628635-61609f7a-6354-479a-ac09-f7e1dd3333ef.png">
+   
+   Kalo muncul tampilan seperti itu kalian tinggal klik download sesuai yang dikotakin, abis itu yaudah tinggal download kayak biasanya
+
+
 
 <div align="center">
-    <p>Follow me!<p>
+  <a href="#list">(Back to List)</a>
+  ·
+  <a href="#top">(Back to Top)</a>
+</div>
+
+<br>
+<br>
+
+<div align="center">
+    Follow me!<br>
     <a href="https://bit.ly/3Qcg3s4">LinkedIn</a>
     ·
     <a href="https://bit.ly/3oRMMaA">Instagram</a>
