@@ -108,12 +108,14 @@ cara cek di windows
   Java(TM) SE Runtime Environment 18.9 (build 11.0.1+13-LTS)
   Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)
   ```
+  Kalo selain itu terus ada tulisann cannot be found atau apalah berarti belom ke install, begituhh
+  
   
 ### Instalasi
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
+Sekarang langsung masuk ke instalasi, jadi disini bakal di jelasin instalasi di **netbeans** dan **visual studio code**
+#### Instalasi di netbeans
+1. Buka website 
 2. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
