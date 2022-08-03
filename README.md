@@ -26,6 +26,7 @@
     <li>
       <a href="#Instalasi">Instalasi</a>
       <ul>
+        <li><a href="#InstalasiJDKJRE">Netbeans</a></li>
         <li><a href="#built-with">Netbeans</a></li>
         <li><a href="#built-with">Visual Studio Code</a></li>
       </ul>
@@ -106,7 +107,8 @@ Cara tau java udah keinstall apa belom
 ### Instalasi
 
 Sekarang langsung masuk ke instalasi, jadi disini bakal di jelasin instalasi di **netbeans** dan **visual studio code**
-#### Instalasi JDK & JRE
+<div id="InstalasiJDKJRE"></div>
+#### Instalasi JDK & JRE 
 1. Buka website https://www.oracle.com/java/technologies/downloads/#java8-windows
     ada tampilan kayak gini nanti. nah itu dipilih dan disesuaikan dengan laptop kalian dari sistem operasi dll
     <img width="699" alt="image" src="https://user-images.githubusercontent.com/92344349/182571405-087d6a8d-c3a8-47aa-87e9-2ca4f8cc309c.png">
