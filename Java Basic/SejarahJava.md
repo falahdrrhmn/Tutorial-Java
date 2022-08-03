@@ -1,6 +1,7 @@
 <br />
 <div align="center">
-  <h1 align="center">Java Basic</h1>
+  <h3 align="center">Java Basic</h3>
+  <h1>Sejarah Java</h1>
 
   <p align="center">
     Menjelaskan basic java
@@ -41,3 +42,4 @@
     </li>
   </ol>
 </details>
+
