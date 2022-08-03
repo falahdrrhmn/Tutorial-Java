@@ -54,7 +54,9 @@ contohnya:
 ```
 2. Narrowing Casting (manually) - mengubah tipe yang lebih besar ke tipe ukuran yang lebih kecil
 contohnya: 
-double -> float -> long -> int -> char -> short -> byte
+```js
+   double -> float -> long -> int -> char -> short -> byte 
+```
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
