@@ -26,7 +26,7 @@
     <li>
       <a href="#Instalasi">Instalasi</a>
       <ul>
-        <li><a href="#InstalasiJDKJRE">Netbeans</a></li>
+        <li><a href="#InstalasiJDKJRE">Instalasi JDK & JRE</a></li>
         <li><a href="#built-with">Netbeans</a></li>
         <li><a href="#built-with">Visual Studio Code</a></li>
       </ul>
