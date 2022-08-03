@@ -72,6 +72,10 @@ contohnya:
         System.out.println(myDouble);
   }
 }
+
+output:
+9
+9.0
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
