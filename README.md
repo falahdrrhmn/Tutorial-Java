@@ -95,10 +95,10 @@
 
 Jadi sebelum instalasi harus dicek dulu laptop udah keinstall java atau belom. Secara default, windows, macintosh, dan linux (ubuntu) tidak dilengkapi dengan Java (atau Java Runtime Environment, JRE) yang diinstal. Jadi dicek dulu di terminal, disini contohnya terminal windows. Jadi gini kalo kita mau nginstall java di PC kita kita harus Install yg namanya JDK (Java Development kit). Teruuss apa gunanya JDK? kenapa harus install? Jadiii JDK itu sebuah software yang digunakan untu melakukan proses compilasi dari **java code ke byte code**. Jadi aplikasi android kan umumnya dikembangkan menggunakan bahasa pemrograman java, jadi java app bisa dijalankan jika ada **JVM & JDK**. Njer apalagi JVM? JVM ituu _java virtual machine_ yang merupakan bagian dari **JRE atau _java runtime environtment_**. Nahh tapii klo kita nginstall JDK (Java Development Kit) sebenernya kita sudah menginstall 2 paket yakni JDK dan JRE. Begituhhh, **jadi intinya install JDK** ribett
 
-### Cek Java udah keinstall apa belom
+### Cek Java udah keinstall apa belom?
 
-cara cek di windows 
-* npm
+Cara tau java udah keinstall apa belom
+* Cek di terminal
   ```sh
   java -version
   ```
@@ -108,13 +108,13 @@ cara cek di windows
   Java(TM) SE Runtime Environment 18.9 (build 11.0.1+13-LTS)
   Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)
   ```
-  Kalo selain itu terus ada tulisann cannot be found atau apalah berarti belom ke install, begituhh
+  Kalo selain itu terus ada tulisann cannot be found atau apalah berarti belom ke install, begituhh. tapiii ni tapii walaupun udah keinstall java belom tentu bisa     kepake, karna yg dibutuhin juga compilernya.
   
   
 ### Instalasi
 
 Sekarang langsung masuk ke instalasi, jadi disini bakal di jelasin instalasi di **netbeans** dan **visual studio code**
-#### Instalasi di netbeans
+#### Instalasi JDK & JRE
 1. Buka website https://www.oracle.com/java/technologies/downloads/#java8-windows
     ada tampilan kayak gini nanti. nah itu dipilih dan disesuaikan dengan laptop kalian dari sistem operasi dll
     <img width="699" alt="image" src="https://user-images.githubusercontent.com/92344349/182571405-087d6a8d-c3a8-47aa-87e9-2ca4f8cc309c.png">
@@ -137,13 +137,59 @@ Sekarang langsung masuk ke instalasi, jadi disini bakal di jelasin instalasi di 
     'javac' is not recognized as an internal or external command, 
     operable program or batch file.
     ```
-    berarti java compilernya belom teridentifikasi walaupun pas kita cek di terminal versi java (bukan compiler) hasilnya ada seperti ini 
+    berarti java compilernya belom teridentifikasi itu normall walaupun pas kita cek di terminal versi java (bukan compiler) hasilnya ada seperti ini 
     ```sh
     java -version
     java version "11.0.1" 2018-10-16 LTS
     Java(TM) SE Runtime Environment 18.9 (build 11.0.1+13-LTS)
     Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)
     ```
+    nah jadi cara masang java compilernya kita tinggal ke menu windows terus search aja path, nanti ada pilihan kayak gini
+    
+    <img width="255" alt="image" src="https://user-images.githubusercontent.com/92344349/182575473-f77f0174-5161-4827-8f18-221a5551e966.png">
+    
+    nahh yaudah tinggal klik itu "Edit System Environment Variable"
+    
+    <img width="309" alt="image" src="https://user-images.githubusercontent.com/92344349/182575922-88c58c34-20b7-4fdc-8b9d-a8c970c04ce9.png">
+    
+    terus nanti pilih yang environtment variable, terus nanti muncul tampilan kayak gitu
+    
+    <img width="368" alt="image" src="https://user-images.githubusercontent.com/92344349/182576667-57941cd5-c1f8-4acd-b650-20e8bae2db3a.png">
+    
+    itu klik bagian **path** terus **edit**
+    abis itu nanti muncul tampilan kayak gini 
+    
+    <img width="367" alt="image" src="https://user-images.githubusercontent.com/92344349/182577072-3479e538-bfbc-4bbb-aee9-68284f54ff39.png">
+
+    disitu kita klik new buat bikin path baru, pathnya dari mana? kita buka lagi folder JDK, terus nanti didalemmnya ada bin. naahh directory menuju folder itu kita copas, kayak gini contohnya 
+    
+    <img width="561" alt="image" src="https://user-images.githubusercontent.com/92344349/182577581-f9eb1ca6-6d1e-4537-ba5c-b1a6dd2eb97e.png">
+
+    terus kita copas jadi kayak gini nantinya 
+    ```sh
+    C:\Program Files\Java\jdk-18.0.1.1\bin
+    ```
+    
+    terus nanti jadinya kayak gini 
+    
+    <img width="368" alt="image" src="https://user-images.githubusercontent.com/92344349/182578518-d8a0c4dc-8ba2-47f1-a035-ccebe6f6343a.png">
+    
+    atau sebenernya kita juga bisa make cara lain, yang mana kita jadi bisa make seluruh versi JDK, harusnya yee
+    
+    jadi caranya dibagian System variable kita klik new
+    
+    <img width="424" alt="image" src="https://user-images.githubusercontent.com/92344349/182578942-c284b407-994d-4bb0-8764-d3704c0ee357.png">
+
+    terus nanti ada pilihan kayak gini, untuk variable nama kasi nama HOME_JAVA kalo variable value kasi directory ke bin tadi. kayak gini contohnya
+    
+    <img width="469" alt="image" src="https://user-images.githubusercontent.com/92344349/182579510-5b50d6fa-ed1d-4df6-8cc5-10d5f0c809da.png">
+    
+    abis itu klik oke, terus kita masuk lagi ke path terus klik edit
+    
+    <img width="366" alt="image" src="https://user-images.githubusercontent.com/92344349/182580104-d11384ba-4133-4d3d-851e-5f4ba26a093b.png">
+
+    terus tambahin kayak gitu, jadi bebas pilih yang mana
+
 3. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
