@@ -5,7 +5,7 @@
   <p align="center">
     Menjelaskan basic java
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/falahdrrhmn/Tutorial-Java"><strong>Kembali ke menu utama »</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
