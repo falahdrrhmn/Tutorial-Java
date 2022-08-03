@@ -93,16 +93,22 @@
 <!-- GETTING STARTED -->
 ## Instalasi
 
-Jadi untuk melakukan instalasi 
+Jadi sebelum instalasi harus dicek dulu laptop udah keinstall java atau belom. Secara default, windows, macintosh, dan linux (ubuntu) tidak dilengkapi dengan Java (atau Java Runtime Environment, JRE) yang diinstal. Jadi dicek dulu di terminal, disini contohnya terminal windows
 
-### Prerequisites
+### Cek Java udah keinstall apa belom
 
-This is an example of how to list things you need to use the software and how to install them.
+cara cek di windows 
 * npm
   ```sh
-  npm install npm@latest -g
+  java -version
   ```
-
+  kalo hasilnya kayak gini berarti udah ke install
+  ```sh
+  java version "11.0.1" 2018-10-16 LTS
+  Java(TM) SE Runtime Environment 18.9 (build 11.0.1+13-LTS)
+  Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)
+  ```
+  
 ### Instalasi
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
