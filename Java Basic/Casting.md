@@ -62,7 +62,7 @@ contohnya:
 Widening Casting dilakukan secara otomatis saat meneruskan jenis ukuran yang lebih kecil ke jenis ukuran yang lebih besar:
 contohnya:
 
-```
+```java
     public class Main {
         public static void main(String[] args) {
         int myInt = 9;
