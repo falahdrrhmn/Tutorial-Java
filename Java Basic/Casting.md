@@ -83,7 +83,7 @@ Narrowing Casting Pengecoran penyempitan harus dilakukan secara manual dengan me
  
 contohnya:
 
-```
+```java
 public class Main {
   public static void main(String[] args) {
     double myDouble = 9.78d;
