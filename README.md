@@ -183,7 +183,7 @@ Sekarang langsung masuk ke instalasi, jadi disini bakal di jelasin instalasi di 
     terus tambahin kayak gitu, jadi bebas pilih yang mana
 
 
-<p align="right">(<a href="#top">back to list</a>)</p> 
+<p align="right">(<a href="#list">back to list</a>)</p> 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <div align="center">
