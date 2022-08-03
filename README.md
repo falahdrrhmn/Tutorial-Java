@@ -93,7 +93,7 @@
 <!-- GETTING STARTED -->
 ## Instalasi
 
-Jadi sebelum instalasi harus dicek dulu laptop udah keinstall java atau belom. Secara default, windows, macintosh, dan linux (ubuntu) tidak dilengkapi dengan Java (atau Java Runtime Environment, JRE) yang diinstal. Jadi dicek dulu di terminal, disini contohnya terminal windows. Jadi gini kalo kita mau nginstall java di PC kita kita harus Install yg namanya JDK (Java Development kit). Teruuss apa gunanya JDK? kenapa harus install? Jadiii JDK itu sebuah software yang digunakan untu melakukan proses compilasi dari **java code ke byte code**. Jadi aplikasi android kan umumnya dikembangkan menggunakan bahasa pemrograman java, jadi java app bisa dijalankan jika ada **JVM & JDK**. Njer apalagi JVM? JVM ituu _java virtual machine_ yang merupakan bagian dari **JRE atau _java runtime environtment_**. Nahh tapii klo kita nginstall JDK (Java Development Kit) sebenernya kita sudah menginstall 2 paketm yakni JDK dan JRE. Begituhhh, **jadi intinya install JDK**
+Jadi sebelum instalasi harus dicek dulu laptop udah keinstall java atau belom. Secara default, windows, macintosh, dan linux (ubuntu) tidak dilengkapi dengan Java (atau Java Runtime Environment, JRE) yang diinstal. Jadi dicek dulu di terminal, disini contohnya terminal windows. Jadi gini kalo kita mau nginstall java di PC kita kita harus Install yg namanya JDK (Java Development kit). Teruuss apa gunanya JDK? kenapa harus install? Jadiii JDK itu sebuah software yang digunakan untu melakukan proses compilasi dari **java code ke byte code**. Jadi aplikasi android kan umumnya dikembangkan menggunakan bahasa pemrograman java, jadi java app bisa dijalankan jika ada **JVM & JDK**. Njer apalagi JVM? JVM ituu _java virtual machine_ yang merupakan bagian dari **JRE atau _java runtime environtment_**. Nahh tapii klo kita nginstall JDK (Java Development Kit) sebenernya kita sudah menginstall 2 paket yakni JDK dan JRE. Begituhhh, **jadi intinya install JDK** ribett
 
 ### Cek Java udah keinstall apa belom
 
@@ -115,8 +115,12 @@ cara cek di windows
 
 Sekarang langsung masuk ke instalasi, jadi disini bakal di jelasin instalasi di **netbeans** dan **visual studio code**
 #### Instalasi di netbeans
-1. Buka website 
-2. Clone the repo
+1. Buka website https://www.oracle.com/java/technologies/downloads/#java8-windows
+    ada tampilan kayak gini nanti
+    <img width="699" alt="image" src="https://user-images.githubusercontent.com/92344349/182571405-087d6a8d-c3a8-47aa-87e9-2ca4f8cc309c.png">
+
+2. terus
+3. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
