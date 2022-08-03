@@ -116,10 +116,34 @@ cara cek di windows
 Sekarang langsung masuk ke instalasi, jadi disini bakal di jelasin instalasi di **netbeans** dan **visual studio code**
 #### Instalasi di netbeans
 1. Buka website https://www.oracle.com/java/technologies/downloads/#java8-windows
-    ada tampilan kayak gini nanti
+    ada tampilan kayak gini nanti. nah itu dipilih dan disesuaikan dengan laptop kalian dari sistem operasi dll
     <img width="699" alt="image" src="https://user-images.githubusercontent.com/92344349/182571405-087d6a8d-c3a8-47aa-87e9-2ca4f8cc309c.png">
-
-2. terus
+    
+    biasanya nanti saat ingin download disuruh login, jadi tinggal login ajaa
+2. Nah nanti kalo udah install, buka folder bakal muncul kayak gini
+    <img width="575" alt="image" src="https://user-images.githubusercontent.com/92344349/182572509-24cf8878-db0a-445d-81ad-5b344a91d32d.png">
+    
+    Nahh jadi nanti di JRE bakal ada JVM juga yg tadi udah dibahas. 
+    Tapiii JDK dan JRE yang udah keinstall belom pastii kita bisa make javanya, kita cek dulu dengen ketik di terminal seperti ini
+    ```sh
+    javac -version
+    ```
+    kalo hasilnya kayak gini
+    ```sh
+    javac 18.0.1.1 (atau angka lainnya)
+    ```
+    berarti kemungkinan sebelumnya udah pernah download, tapi kalo hasilnya kayak gini
+    ```sh
+    'javac' is not recognized as an internal or external command, 
+    operable program or batch file.
+    ```
+    berarti java compilernya belom teridentifikasi walaupun pas kita cek di terminal versi java (bukan compiler) hasilnya ada seperti ini 
+    ```sh
+    java -version
+    java version "11.0.1" 2018-10-16 LTS
+    Java(TM) SE Runtime Environment 18.9 (build 11.0.1+13-LTS)
+    Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)
+    ```
 3. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
