@@ -61,7 +61,111 @@ contohnya:
 <h3>Widening Casting</h3>
 Widening Casting dilakukan secara otomatis saat meneruskan jenis ukuran yang lebih kecil ke jenis ukuran yang lebih besar:
 contohnya:
-```js
+```
+/**
+ * Calculator grammar to generate parser in Java.
+ */
+
+// -----------------------------------------------
+// Lexical grammar.
+
+%lex
+
+%%
+
+\s+     /* skip whitespace */ return null;
+\d+     return "NUMBER";
+
+/lex
+
+// -----------------------------------------------
+// Operator precedence.
+//
+// The `*` goes after `+`, so `2 + 2 * 2` is
+// correctly parsed as `2 + (2 * 2)`.
+//
+// Also both are left-associative, meaning
+// `2 + 2 + 2` is `(2 + 2) + 2`, which is important
+// when we build AST nodes.
+
+%left '+'
+%left '*'
+
+// -----------------------------------------------
+// Module include.
+//
+// The code which is included "as is" to the generated
+// parser. Can contain `ParserEvents` class to subscribe to
+// needed parsing events.
+
+%{
+
+/**
+ * The ParserEvents class allows subscribing to
+ * different parsing events.
+ */
+class ParserEvents {
+  public static void init() {
+    System.out.println("Parser is created.");
+  }
+
+  public static void onParseBegin(String str) {
+    System.out.println("Parsing is started: " + str);
+  }
+
+  public static void onParseEnd(Object result) {
+    System.out.println("Parsing is completed: " + result);
+  }
+}
+
+%}
+
+%%
+
+// -----------------------------------------------
+// Syntactic grammar (BNF).
+//
+// Defines an actual syntactic structure of
+// our program.
+
+Expr
+
+    // ---------------------------------------
+    // Addition
+
+    : Expr '+' Expr {
+
+        $$ = (Integer)$1 + (Integer)$3
+    }
+
+    // ---------------------------------------
+    // Multiplication
+
+    | Expr '*' Expr {
+
+        $$ = (Integer)$1 * (Integer)$3
+    }
+
+    // ---------------------------------------
+    // Simple number
+
+    | NUMBER {
+
+        $$ = Integer.valueOf(yytext)
+    }
+
+    // ---------------------------------------
+    // Grouping in parens
+
+    | '(' Expr ')' {
+
+        $$ = $2
+
+    };
+```
+
+
+```
     public class Main {
         public static void main(String[] args) {
           int myInt = 9;
