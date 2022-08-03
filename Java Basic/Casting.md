@@ -61,6 +61,7 @@ contohnya:
 <h3>Widening Casting</h3>
 Widening Casting dilakukan secara otomatis saat meneruskan jenis ukuran yang lebih kecil ke jenis ukuran yang lebih besar:
 contohnya:
+
 ```
     public class Main {
         public static void main(String[] args) {
@@ -81,6 +82,7 @@ output:
 Narrowing Casting Pengecoran penyempitan harus dilakukan secara manual dengan menempatkan jenis dalam tanda kurung di depan nilai:
  
 contohnya:
+
 ```
 public class Main {
   public static void main(String[] args) {
