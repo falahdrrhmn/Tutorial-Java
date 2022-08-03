@@ -185,6 +185,17 @@ Sekarang langsung masuk ke instalasi, jadi disini bakal di jelasin instalasi di 
 
     terus tambahin kayak gitu, jadi bebas pilih yang mana
 
+
+<div align="center">
+  <a href="#list">(Back to List)</a>
+  ·
+  <a href="#top">(Back to Top)</a>
+</div>
+
+<br>
+<br>
+
+
 #### Instalasi Netbeans
 <div id="InstalasiNetbeans"></div>
 setelah berhasil menginstall JDK & JRE selanjutnya kita akan melakukan instalasi netbeans, apabila tidak ingin menggunakan netbeans anda dapat langsung klik ini untuk skip ke instalasi visual studio code
