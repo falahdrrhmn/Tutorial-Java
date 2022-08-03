@@ -184,6 +184,9 @@ Sekarang langsung masuk ke instalasi, jadi disini bakal di jelasin instalasi di 
 
     terus tambahin kayak gitu, jadi bebas pilih yang mana
 
+#### Instalasi Netbeans
+setelah berhasil menginstall JDK & JRE selanjutnya kita akan melakukan instalasi netbeans, apabila tidak ingin menggunakan netbeans anda dapat langsung klik ini untuk skip ke instalasi visual studio code
+1. yang pertama kita buka website resmi dari dari apache netbeans terlebih dahulu, yakni https://netbeans.apache.org/download/nb14/nb14.html        
 
 <p align="right">(<a href="#list">back to list</a>)</p> 
 <p align="right">(<a href="#top">back to top</a>)</p>
