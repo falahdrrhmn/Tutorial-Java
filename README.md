@@ -8,14 +8,14 @@
   <p align="center">
     Beberapa basic java buat nginget materiii biar ndak lupa
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Code lengkap »</strong></a>
+    <a href="https://github.com/falahdrrhmn/Tutorial-Java"><strong>Code lengkap »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">Java Basic</a>
+    <a href="https://github.com/falahdrrhmn/Tutorial-Java/tree/main/Java%20Basic#readme">Java Basic</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Java OOP</a>
+    <a href="https://github.com/">Java OOP</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Java Data Structure</a>
+    <a href="https://github.com/">Java Data Structure</a>
   </p>
 </div>
 
@@ -32,7 +32,7 @@
       </ul>
     </li>
     <li>
-      <a href="#about-the-project">Java Basic</a>
+      <a href="https://github.com/falahdrrhmn/Tutorial-Java/tree/main/Java%20Basic#readme">Java Basic</a>
       <ul>
         <li><a href="#built-with">Sejarah Java</a></li>
         <li><a href="#built-with">Syntax Dasar Hello World!</a></li>
