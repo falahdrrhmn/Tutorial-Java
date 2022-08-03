@@ -5,7 +5,7 @@
   <p align="center">
     Menjelaskan basic java
     <br />
-    <a href="https://github.com/falahdrrhmn/Tutorial-Java"><strong>Kembali ke menu utama »</strong></a>
+    <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/README.md"><strong>Kembali ke menu utama »</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">Java Basic</a>
@@ -21,7 +21,7 @@
   <summary><H3>List Materi Java Basic</H3></summary>
   <ol>
     <li>
-      <a href="#about-the-project">Java Basic</a>
+      <a href="https://github.com/falahdrrhmn/Tutorial-Java/tree/main/Java%20Basic#readme">Java Basic</a>
       <ul>
         <li><a href="#built-with">Sejarah Java</a></li>
         <li><a href="#built-with">Syntax Dasar Hello World!</a></li>
