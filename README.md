@@ -28,7 +28,7 @@
       <ul>
         <li><a href="#InstalasiJDKJRE">Instalasi JDK & JRE</a></li>
         <li><a href="#InstalasiNetbeans">Instalasi Netbeans</a></li>
-        <li><a href="#built-with">Instalasi Visual Studio Code</a></li>
+        <li><a href="#InstalasiVSCode">Instalasi Visual Studio Code</a></li>
       </ul>
     </li>
     <li>
@@ -211,6 +211,29 @@ setelah berhasil menginstall JDK & JRE selanjutnya kita akan melakukan instalasi
    <img width="962" alt="image" src="https://user-images.githubusercontent.com/92344349/182628635-61609f7a-6354-479a-ac09-f7e1dd3333ef.png">
    
    Kalo muncul tampilan seperti itu kalian tinggal klik download sesuai yang dikotakin, abis itu yaudah tinggal download kayak biasanya
+
+<div align="center">
+  <a href="#list">(Back to List)</a>
+  ·
+  <a href="#top">(Back to Top)</a>
+</div>
+
+<br>
+<br>
+
+
+#### Instalasi Visual Studio Code
+<div id="InstalasiVSCode"></div>
+Karena lagi males + caranya gampang jadi buat downolad java di VSCode caranya tinggal kayak gini
+https://www.tutorialpemrograman.com/desktop/cara-cepat-compile-dan-run-program-java-dengan-visual-studio-code/
+
+
+
+
+
+
+
+
 
 
 
