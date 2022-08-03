@@ -61,14 +61,14 @@ contohnya:
 <h3>Widening Casting</h3>
 Widening Casting dilakukan secara otomatis saat meneruskan jenis ukuran yang lebih kecil ke jenis ukuran yang lebih besar:
 contohnya:
-```jv
+```java
     public class Main {
         public static void main(String[] args) {
-        int myInt = 9;
-        double myDouble = myInt; // Automatic casting: int to double
+          int myInt = 9;
+          double myDouble = myInt; // Automatic casting: int to double
 
-        System.out.println(myInt);
-        System.out.println(myDouble);
+          System.out.println(myInt);
+          System.out.println(myDouble);
   }
 }
 ```
