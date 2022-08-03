@@ -188,7 +188,7 @@ Sekarang langsung masuk ke instalasi, jadi disini bakal di jelasin instalasi di 
 
 <div align="center">
     <h2>Follow me!</h2>
-    <a href="https://bit.ly/3Qcg3s4" target="_blank">LinkedIn</a>
+    <a href="https://bit.ly/3Qcg3s4">LinkedIn</a>
     ·
     <a href="https://bit.ly/3oRMMaA">Instagram</a>
     ·
