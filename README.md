@@ -187,7 +187,7 @@ Sekarang langsung masuk ke instalasi, jadi disini bakal di jelasin instalasi di 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <div align="center">
-    <h2>Follow me!</h2>
+    <p>Follow me!<p>
     <a href="https://bit.ly/3Qcg3s4">LinkedIn</a>
     ·
     <a href="https://bit.ly/3oRMMaA">Instagram</a>
