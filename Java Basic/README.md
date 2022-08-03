@@ -8,7 +8,7 @@
     <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/README.md"><strong>Kembali ke menu utama »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">Java Basic</a>
+    <a href="https://github.com/falahdrrhmn/Tutorial-Java/tree/main/Java%20Basic#readme">Java Basic</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Java OOP</a>
     ·
