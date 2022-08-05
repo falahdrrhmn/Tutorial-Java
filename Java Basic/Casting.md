@@ -6,10 +6,10 @@
   <p align="center">
     Menjelaskan basic java casting
     <br />
-    <a href="https://github.com/falahdrrhmn/Tutorial-Java"><strong>Kembali ke menu utama »</strong></a>
+    <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/README.md"><strong>Kembali ke menu utama »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">Java Basic</a>
+    <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/README.md">Java Basic</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Java OOP</a>
     ·
@@ -22,14 +22,14 @@
   <summary><H3>List Materi Java Basic</H3></summary>
   <ol>
     <li>
-      <a href="#about-the-project">Java Basic</a>
+      <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/README.md">Java Basic</a>
       <ul>
         <li><a href="#built-with">Sejarah Java</a></li>
         <li><a href="#built-with">Syntax Dasar Hello World!</a></li>
         <li><a href="#built-with">Commant</a></li>
         <li><a href="#built-with">Variables</a></li>
         <li><a href="#built-with">Tipe Data</a></li>
-        <li><a href="#built-with">Casting</a></li>
+        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/Casting.md">Casting</a></li>
         <li><a href="#built-with">Operator</a></li>
         <li><a href="#built-with">Java String</a></li>
         <li><a href="#built-with">Java Math</a></li>
