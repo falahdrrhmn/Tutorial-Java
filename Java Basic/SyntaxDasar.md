@@ -44,18 +44,16 @@
 
 ## Syntax Java
 
-Jadi singkatnya gini, kalo di casting itu maksudnya merubah suatu tipe data, misalnya tipe data integer diubah jadi string etc. 
-Di Java sendiri terdapat dua jenis casting, yakni 
-1. Widening Casting (automatically) - mengubah tipe yang lebih kecil ke ukuran tipe yang lebih besar
-contohnya: 
-```js
-    byte -> short -> char -> int -> long -> float -> double
+Beberapa fungsi Java adalah untuk develop mobile apps, web apps, desktop apps, games dll.
+1. Untuk manggi "Hello World": 
+```java
+   public class Main {
+    public static void main(String[] args) {
+      System.out.println("Hello World");
+  }
+} 
 ```
-2. Narrowing Casting (manually) - mengubah tipe yang lebih besar ke tipe ukuran yang lebih kecil
-contohnya: 
-```js
-   double -> float -> long -> int -> char -> short -> byte 
-```
+udah gitu aja 
 
 
 <br>
