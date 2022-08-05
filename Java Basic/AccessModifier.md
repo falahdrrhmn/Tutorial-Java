@@ -44,22 +44,73 @@
 
 ## Java Access Modifier
 
-Jadi singkatnya gini, kalo di casting itu maksudnya merubah suatu tipe data, misalnya tipe data integer diubah jadi string etc. 
-Di Java sendiri terdapat dua jenis casting, yakni 
-1. Widening Casting (automatically) - mengubah tipe yang lebih kecil ke ukuran tipe yang lebih besar
-contohnya: 
-```js
-    byte -> short -> char -> int -> long -> float -> double
+Jadi singkatnya gini access modifier tu hak akses yang dikasi ke variabel/method/class dg tujuan jaga data tersebut ketika ingin diakses
+
+<img width="350" alt="image" src="https://user-images.githubusercontent.com/92344349/183013163-ad040cdb-dc10-477e-a03f-867396ed08fd.png">
+
+di java ada 4 access modifier, yakni 
+- Public
+- Private
+- Default/No access modifier
+- Protected
+
+<br><br><br>
+
+### Public 
+
+Access modifier public mempunyai hak akses paling luas dibanding yang lainnya. Karena aksesnya sangat luas, maka access modifier ini biasanya digunakan untuk method setter getter sesuai konsep OOP.
+
+```java
+public class Hewan {
+	private int jumlahKaki;
+	private String namaHewan;
+	public int getJumlahKaki() {
+		return jumlahKaki;
+	}
+	public void setJumlahKaki(int jumlahKaki) {
+		this.jumlahKaki = jumlahKaki;
+	}
+	public String getNamaHewan() {
+		return namaHewan;
+	}
+	public void setNamaHewan(String namaHewan) {
+		this.namaHewan = namaHewan;
+	}
+}
 ```
-2. Narrowing Casting (manually) - mengubah tipe yang lebih besar ke tipe ukuran yang lebih kecil
-contohnya: 
-```js
-   double -> float -> long -> int -> char -> short -> byte 
+
+### Protected
+
+Access modifier protected biasanya digunakan untuk mewariskan variabel yang ada di super class terhadap child class.
+
+```java
+public class User{
+	protected String nama;
+	protected String jabatan;
+}
 ```
 
+### No Access Modifier/Default
 
+Sesuai namanya, hak akses yang satu ini tidak perlu dituliskan di method/variabelnya. Dengan hak akses ini, variabel/method dapat diakses dari class lain asalkan masih dalam satu package yang sama.
 
+```java
+public class Kendaraan {
+	int jumlahRoda;
+	String warna;
+}
+```
 
+### Private
+
+Access modifier private bersifat tertutup. Sesuai dengan konsep OOP Encapsulation, maka setiap variabel wajib untuk dilindungi hak aksesnya secara langsung dari luar. Oleh karena itu, variabel diberikan hak akses private dan untuk melakukan pengaksesan/perubahan data digunakan setter getter.
+
+```java
+public class Hewan {
+	private int jumlahKaki;
+	private String namaHewan;
+}
+```
 
 <br>
 <br>
