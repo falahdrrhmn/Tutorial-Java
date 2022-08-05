@@ -58,19 +58,6 @@ Hello World
 ```
 udah gitu aja 
 
-
-<br>
-<br>
-
-<div align="center">
-  <a href="#list">(Back to List)</a>
-  ·
-  <a href="#top">(Back to Top)</a>
-</div>
-
-<br>
-<br>
-
 ## Alasan Menggunakan Java
 <ul>
   <li>Java bekerja pada platform yang berbeda (Windows, Mac, Linux, Raspberry Pi, dll.)</li>
@@ -92,7 +79,16 @@ udah gitu aja
   <li>Games</li>
   <li>Database connection</li>    
 </ul>
-      
+
+<br>
+<br>
+
+<div align="center">
+  <a href="#list">(Back to List)</a>
+  ·
+  <a href="#top">(Back to Top)</a>
+</div>
+
 <br>
 <br>
 
