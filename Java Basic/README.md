@@ -10,9 +10,9 @@
     <br />
     <a href="https://github.com/falahdrrhmn/Tutorial-Java/tree/main/Java%20Basic#readme">Java Basic</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Java OOP</a>
+    <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20OOP/README.md">Java OOP</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Java Data Structure</a>
+    <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Data%20Structure/README.md">Java Data Structure</a>
   </p>
 </div>
 
