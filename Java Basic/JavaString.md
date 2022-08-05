@@ -44,20 +44,107 @@
 
 ## Java Strings
 
-Jadi singkatnya gini, kalo di casting itu maksudnya merubah suatu tipe data, misalnya tipe data integer diubah jadi string etc. 
-Di Java sendiri terdapat dua jenis casting, yakni 
-1. Widening Casting (automatically) - mengubah tipe yang lebih kecil ke ukuran tipe yang lebih besar
+Sebuah String di Java sebenarnya adalah sebuah objek, yang berisi metode yang dapat melakukan operasi tertentu pada string. Misalnya, panjang string dapat ditemukan dengan metode length() :
+1. String.length
 contohnya: 
-```js
-    byte -> short -> char -> int -> long -> float -> double
+```java
+public class Main {
+  public static void main(String[] args) {
+    String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    System.out.println("The length of the txt string is: " + txt.length());
+  }
+}
+
+output : 
+The length of the txt string is: 26
 ```
-2. Narrowing Casting (manually) - mengubah tipe yang lebih besar ke tipe ukuran yang lebih kecil
-contohnya: 
-```js
-   double -> float -> long -> int -> char -> short -> byte 
+2. More String Methods
+There are many string methods available, for example toUpperCase() and toLowerCase():
+```java
+public class Main {
+  public static void main(String[] args) {
+    String txt = "Hello World";
+    System.out.println(txt.toUpperCase());
+    System.out.println(txt.toLowerCase());
+  }
+}
+
+output:
+HELLO WORLD
+hello world
 ```
 
 
+
+3. Finding a Character in a String
+Metode indexOf() mengembalikan indeks (posisi) kemunculan pertama dari teks yang ditentukan dalam string (termasuk spasi):
+contohnya: 
+```java
+public class Main {
+  public static void main(String[] args) {
+    String txt = "Please locate where 'locate' occurs!";
+    System.out.println(txt.indexOf("locate"));
+  }
+}
+
+output:
+7
+```
+
+<br>
+
+### String Concatenation
+
+The + operator can be used between strings to combine them. This is called concatenation:
+```java
+public class Main {
+  public static void main(String args[]) {
+    String firstName = "John";
+    String lastName = "Doe";
+    System.out.println(firstName + " " + lastName);
+  }
+}
+
+output:
+John Doe
+```
+
+You can also use the concat() method to concatenate two strings:
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    String firstName = "John ";
+    String lastName = "Doe";
+    System.out.println(firstName.concat(lastName));
+  }
+}
+
+output:
+John Doe
+```
+<br>
+
+### Java Numbers and Strings
+
+Java menggunakan operator + untuk penambahan dan penggabungan. Angka ditambahkan. String digabungkan
+```java
+
+int x = 10;
+int y = 20;
+int z = x + y;  // z will be 30 (an integer/number)
+
+String x = "10";
+String y = "20";
+String z = x + y;  // z will be 1020 (a String)
+
+```
+If you add a number and a string, the result will be a string concatenation:
+```java
+String x = "10";
+int y = 20;
+String z = x + y;  // z will be 1020 (a String)
+```
 
 
 
