@@ -44,7 +44,7 @@
 
 ## Java Comments
 
-intinya bagian yg gak dieksekusi 
+intinya bagian yg gak dieksekusi, buat bantu jelasin kode program
 1. Single-line comments 
 contohnya: 
 ```java
