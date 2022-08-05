@@ -44,22 +44,77 @@
 
 ## Java Math
 
-Jadi singkatnya gini, kalo di casting itu maksudnya merubah suatu tipe data, misalnya tipe data integer diubah jadi string etc. 
-Di Java sendiri terdapat dua jenis casting, yakni 
-1. Widening Casting (automatically) - mengubah tipe yang lebih kecil ke ukuran tipe yang lebih besar
-contohnya: 
-```js
-    byte -> short -> char -> int -> long -> float -> double
+The Java Math class has many methods that allows you to perform mathematical tasks on numbers.
+
+Math.max(x,y)
+The Math.max(x,y) method can be used to find the highest value of x and y:
+```java
+public class Main {
+  public static void main(String[] args) {
+    System.out.println(Math.max(5, 10));  
+  }
+}
+
+output:
+10
 ```
-2. Narrowing Casting (manually) - mengubah tipe yang lebih besar ke tipe ukuran yang lebih kecil
-contohnya: 
-```js
-   double -> float -> long -> int -> char -> short -> byte 
+
+Math.min(x,y)
+The Math.min(x,y) method can be used to find the lowest value of x and y:
+```java
+public class Main {
+  public static void main(String[] args) {
+    System.out.println(Math.min(5, 10));  
+  }
+}
+
+output:
+5
 ```
 
+Math.sqrt(x)
+The Math.sqrt(x) method returns the square root of x:
+```java
+public class Main {
+  public static void main(String[] args) {
+    System.out.println(Math.sqrt(64));  
+  }
+}
 
+output:
+8.0
+```
 
+Math.abs(x)
+The Math.abs(x) method returns the absolute (positive) value of x:
+```java
+public class Main {
+  public static void main(String[] args) {
+    System.out.println(Math.abs(-4.7));  
+  }
+}
 
+output:
+4.7
+```
+
+Random Numbers
+Math.random() returns a random number between 0.0 (inclusive), and 1.0 (exclusive):
+```java
+public class Main {
+  public static void main(String[] args) {
+    System.out.println(Math.random());  
+  }
+}
+
+output:
+0.8037773794577023
+```
+To get more control over the random number, e.g. you only want a random number between 0 and 100, you can use the following formula:
+
+```java
+int randomNum = (int)(Math.random() * 101);  // 0 to 100
+```
 
 <br>
 <br>
