@@ -71,6 +71,31 @@ udah gitu aja
 <br>
 <br>
 
+## Alasan Menggunakan Java
+<ul>
+  <li>Java bekerja pada platform yang berbeda (Windows, Mac, Linux, Raspberry Pi, dll.)</li>
+  <li>Java salah satu bahasa pemrograman paling populer di dunia</li>
+  <li>Mudah dipelajari dan mudah digunakan</li>
+  <li>Java open-source dan gratis</li>
+  <li>Java aman, cepat, dan kuat</li>
+  <li>Java memiliki dukungan komunitas yang sangat besar (puluhan juta pengembang)</li>
+  <li>Java adalah bahasa berorientasi objek yang memberikan struktur yang jelas untuk program dan memungkinkan kode untuk digunakan kembali, menurunkan biaya pengembangan</li>
+  <li>Karena Java dekat dengan C++ dan C#, memudahkan programmer untuk beralih ke Java atau sebaliknya</li>  
+</ul>
+      
+## Java Banyak Digunakan Untuk
+<ul>
+  <li>Mobile applications (specially Android apps)</li>
+  <li>Desktop applications</li>
+  <li>Web applications</li>
+  <li>Web servers and application servers</li>
+  <li>Games</li>
+  <li>Database connection</li>    
+</ul>
+      
+<br>
+<br>
+
 <div align="center">
     Follow me!<br>
     <a href="https://bit.ly/3Qcg3s4">LinkedIn</a>
