@@ -1,16 +1,17 @@
 <br />
 <div align="center">
-  <h1 align="center">Java Basic</h1>
+  <h1 align="center">Java OOP</h1>
+  <p align="center">(Java Object Oriented Programming)</p>
 
   <p align="center">
-    Menjelaskan basic java
+    Menjelaskan basic java OOP
     <br />
     <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/README.md"><strong>Kembali ke menu utama »</strong></a>
     <br />
     <br />
     <a href="https://github.com/falahdrrhmn/Tutorial-Java/tree/main/Java%20Basic#readme">Java Basic</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Java OOP</a>
+    <a href="">Java OOP</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Java Data Structure</a>
   </p>
@@ -21,22 +22,16 @@
   <summary><H3>List Materi Java Basic</H3></summary>
   <ol>
     <li>
-      <a href="https://github.com/falahdrrhmn/Tutorial-Java/tree/main/Java%20Basic#readme">Java Basic</a>
+      <a href="https://github.com/falahdrrhmn/Tutorial-Java/tree/main/Java%20Basic#readme">Java OOP</a>
       <ul>
-        <li><a href="#built-with">Sejarah Java</a></li>
-        <li><a href="#built-with">Syntax Dasar Hello World!</a></li>
-        <li><a href="#built-with">Commant</a></li>
-        <li><a href="#built-with">Variables</a></li>
-        <li><a href="#built-with">Tipe Data</a></li>
-        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/Casting.md">Casting</a></li>
-        <li><a href="#built-with">Operator</a></li>
-        <li><a href="#built-with">Java String</a></li>
-        <li><a href="#built-with">Java Math</a></li>
-        <li><a href="#built-with">Java If-else Statement</a></li>
-        <li><a href="#built-with">Java Switch Statement</a></li>
-        <li><a href="#built-with">Built looping</a></li>
-        <li><a href="#built-with">Java Array</a></li>
-        <li><a href="#built-with">Java Methods</a></li>
+        <li><a href="#prerequisites">Dasar OOP</a></li>
+        <li><a href="#installation">Class dan Object</a></li>
+        <li><a href="#built-with">Class Methods</a></li>
+        <li><a href="#built-with">Constructor</a></li>
+        <li><a href="#built-with">Encapsulation</a></li>
+        <li><a href="#built-with">Abstraction</a></li>
+        <li><a href="#built-with">Inheritance</a></li>
+        <li><a href="#built-with">Polymorphism</a></li>
       </ul>
     </li>
   </ol>
