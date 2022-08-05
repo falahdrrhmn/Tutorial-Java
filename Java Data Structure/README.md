@@ -13,7 +13,7 @@
     ·
     <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20OOP/README.md">Java OOP</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Java Data Structure</a>
+    <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Data%20Structure/README.md">Java Data Structure</a>
   </p>
 </div>
 
@@ -22,7 +22,7 @@
   <summary><H3>List Materi Data Structure</H3></summary>
   <ol>
     <li>
-      <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20OOP/README.md">Java Data Structure</a>
+      <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Data%20Structure/README.md">Java Data Structure</a>
       <ul>
         <li><a href="#prerequisites">Array</a></li>
         <li><a href="#installation">LinkedList</a></li>
