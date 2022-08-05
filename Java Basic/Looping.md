@@ -44,21 +44,80 @@
 
 ## Java Looping
 
-Jadi singkatnya gini, kalo di casting itu maksudnya merubah suatu tipe data, misalnya tipe data integer diubah jadi string etc. 
-Di Java sendiri terdapat dua jenis casting, yakni 
-1. Widening Casting (automatically) - mengubah tipe yang lebih kecil ke ukuran tipe yang lebih besar
-contohnya: 
-```js
-    byte -> short -> char -> int -> long -> float -> double
+### While Loop 
+The while loop loops through a block of code as long as a specified condition is true:
+
+```java
+int i = 0;
+while (i < 5) {
+  System.out.println(i);
+  i++;
+}
+
+output:
+0
+1
+2
+3
+4
 ```
-2. Narrowing Casting (manually) - mengubah tipe yang lebih besar ke tipe ukuran yang lebih kecil
-contohnya: 
-```js
-   double -> float -> long -> int -> char -> short -> byte 
+
+### Do While Loop
+
+```java
+int i = 0;
+do {
+  System.out.println(i);
+  i++;
+}
+while (i < 5)
+
+output:
+0
+1
+2
+3
+4
 ```
 
+### For Loop
 
+```java
+public class Main {
+  public static void main(String[] args) {
+    for (int i = 0; i <= 10; i = i + 2) {
+      System.out.println(i);
+    }  
+  }
+}
 
+output:
+0
+2
+4
+6
+8
+10
+```
+
+### For Each Loop
+biasa dipake buat element array
+```java
+public class Main {
+  public static void main(String[] args) {
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    for (String i : cars) {
+      System.out.println(i);
+    }    
+  } 
+}
+
+output:
+Volvo
+BMW
+Ford
+Mazda
+```
 
 
 <br>
