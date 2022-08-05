@@ -13,9 +13,9 @@
     <br />
     <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/README.md">Java Basic</a>
     ·
-    <a href="https://github.com/">Java OOP</a>
+    <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20OOP/README.md">Java OOP</a>
     ·
-    <a href="https://github.com/">Java Data Structure</a>
+    <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Data%20Structure/README.md">Java Data Structure</a>
   </p>
 </div>
 
@@ -51,7 +51,7 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Java OOP</a>
+      <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20OOP/README.md">Java OOP</a>
       <ul>
         <li><a href="#prerequisites">Dasar OOP</a></li>
         <li><a href="#installation">Class dan Object</a></li>
@@ -64,7 +64,7 @@
       </ul>
     </li>
     <li>
-      <a href="#usage">Java Data Structure</a>
+      <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Data%20Structure/README.md">Java Data Structure</a>
        <ul>
         <li><a href="#prerequisites">Array</a></li>
         <li><a href="#installation">LinkedList</a></li>
