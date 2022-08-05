@@ -28,7 +28,7 @@
         <li><a href="#built-with">Commant</a></li>
         <li><a href="#built-with">Variables</a></li>
         <li><a href="#built-with">Tipe Data</a></li>
-        <li><a href="#built-with">Casting</a></li>
+        <li><a href="#https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/Casting.md">Casting</a></li>
         <li><a href="#built-with">Operator</a></li>
         <li><a href="#built-with">Java String</a></li>
         <li><a href="#built-with">Java Math</a></li>
