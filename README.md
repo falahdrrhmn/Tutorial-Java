@@ -231,14 +231,6 @@ https://www.tutorialpemrograman.com/desktop/cara-cepat-compile-dan-run-program-j
 <br>
 <br>
 
-
-
-
-
-
-
-
-
 <div align="center">
   <a href="#list">(Back to List)</a>
   ·
