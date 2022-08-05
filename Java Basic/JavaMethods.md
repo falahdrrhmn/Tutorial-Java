@@ -206,7 +206,125 @@ public class Main {
 // Outputs "Access granted - You are old enough!"
 ```
 
+<br><br><br>
 
+### Java Methods Overloading
+
+Dengan metode overloading, beberapa metode dapat memiliki nama yang sama dengan parameter yang berbeda:
+
+Perhatikan contoh berikut, yang memiliki dua metode yang menambahkan nomor dari jenis yang berbeda:
+
+```java
+public class Main {
+  static int plusMethodInt(int x, int y) {
+    return x + y;
+  }
+  
+  static double plusMethodDouble(double x, double y) {
+    return x + y;
+  }
+  
+  public static void main(String[] args) {
+    int myNum1 = plusMethodInt(8, 5);
+    double myNum2 = plusMethodDouble(4.3, 6.26);
+    System.out.println("int: " + myNum1);
+    System.out.println("double: " + myNum2);
+  }
+}
+
+output:
+int: 13
+double: 10.559999999999999
+```
+
+Daripada mendefinisikan dua metode yang seharusnya melakukan hal yang sama, lebih baik membebani satu metode.
+Pada contoh di bawah ini, kami membebani metode plusMethod agar berfungsi baik untuk int maupun double:
+
+Contoh parameter dalam method
+
+```java
+static int plusMethod(int x, int y) {
+  return x + y;
+}
+
+static double plusMethod(double x, double y) {
+  return x + y;
+}
+
+public static void main(String[] args) {
+  int myNum1 = plusMethod(8, 5);
+  double myNum2 = plusMethod(4.3, 6.26);
+  System.out.println("int: " + myNum1);
+  System.out.println("double: " + myNum2);
+}
+```
+
+```java
+  public static void main(String[] args) {
+    checkAge(20); // Call the checkAge method and pass along an age of 20
+  }
+}
+
+// Outputs "Access granted - You are old enough!"
+```
+
+Note: Multiple methods can have the same name as long as the number and/or type of parameters are different.
+
+<br><br><br>
+
+### Java Scope
+
+Di Java, variabel hanya dapat diakses di dalam wilayah tempat mereka dibuat. Ini disebut ruang lingkup (Scope).
+
+1. Method Scope <br>
+Variables declared directly inside a method are available anywhere in the method following the line of code in which they were declared: (Variabel yang dideklarasikan langsung di dalam suatu metode tersedia di mana saja dalam metode yang mengikuti baris kode di mana mereka dideklarasikan):
+
+```java
+public class Main {
+  public static void main(String[] args) {
+
+    // gabisa make x dikode bagian sini
+
+    int x = 100;
+
+    // bisa make x dikode bagian sini
+    System.out.println(x);
+  }
+}
+```
+
+2. Block Scope<br>
+A block of code refers to all of the code between curly braces {}.<br>
+Variables declared inside blocks of code are only accessible by the code between the curly braces, which follows the line in which the variable was declared (Blok kode merujuk ke semua kode di antara kurung kurawal {}.<br>
+Variabel yang dideklarasikan di dalam blok kode hanya dapat diakses oleh kode di antara kurung kurawal, yang mengikuti baris di mana variabel dideklarasikan):
+contoh
+```java
+public class Main {
+  public static void main(String[] args) {
+
+    // Code here CANNOT use x
+
+    { // This is a block
+
+      // Code here CANNOT use x
+
+      int x = 100;
+
+      // Code here CAN use x
+      System.out.println(x);
+
+   } // The block ends here
+
+  // Code here CANNOT use x
+  
+  }
+}
+
+output:
+100
+```
+
+A block of code may exist on its own or it can belong to an if, while or for statement. In the case of for statements, variables declared in the statement itself are also available inside the block's scope.
 
 <br>
 <br>
