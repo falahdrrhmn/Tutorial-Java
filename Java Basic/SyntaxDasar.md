@@ -56,7 +56,49 @@ public class Main {
 output:
 Hello World
 ```
-udah gitu aja 
+udah gitu aja. btw Setiap bahasa pemrograman Java harus berada di dalam class dan nama class harus sama dengan nama yang "Main"+ Java merupakan bahasa yang sensitif jadi huruf besar dan kecil bisa mengakibatkan error
+
+```java
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+
+output:
+Hello World
+```
+Code yang ada di dalam main method akan dieksekusi. output
+
+```java
+System.out.println("Hello World!");
+output:
+Hello World!
+
+System.out.println(3 + 3);
+output:
+6
+```
+
+ada perbedaan antara println() method  dengan print() method
+contoh println
+
+```java
+System.out.println("Hello World!");
+System.out.println("Hello World!");
+
+output:
+Hello world!
+Hello world!
+```
+Contoh print
+
+```java
+System.out.print("Hello World!");
+System.out.print("Hello World!");
+
+output:
+Hello world!Hello world!
+```
+
 
 ## Alasan Menggunakan Java
 <ul>
