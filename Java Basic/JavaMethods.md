@@ -43,14 +43,14 @@
 </details>
 
 ## Java Methods
-```
-A method is a block of code which only runs when it is called.
-You can pass data (meneruskan atau memasukan), known as parameters, into a method.
-Methods are used to perform certain actions(melakukan beberapa aksi), and they are also known as functions.
-Why use methods? To reuse code: define the code once, and use it many times.
+
+A method is a block of code which only runs when it is called. <br>
+You can pass data (meneruskan atau memasukan), known as parameters, into a method. <br>
+Methods are used to perform certain actions(melakukan beberapa aksi), and they are also known as functions. <br>
+Why use methods? To reuse code: define the code once, and use it many times. <br>
 
 Sebuah metode harus dideklarasikan di dalam sebuah kelas. Itu didefinisikan dengan nama metode, diikuti oleh tanda kurung (). Java menyediakan beberapa metode yang telah ditentukan sebelumnya, seperti System.out.println(), tetapi Anda juga dapat membuat metode sendiri untuk melakukan tindakan tertentu:
-```
+
 
 Contoh membuat method dalam kelas main
 ```java
@@ -61,12 +61,12 @@ public class Main {
 }
 ```
 
-```
-Penjelasan method
-myMethod() is the name of the method
-static means that the method belongs to the Main class and not an object of the Main class. You will learn more about objects and how to access methods through objects later in this tutorial. (static berarti bahwa metode tersebut milik kelas Utama dan bukan objek dari kelas Utama. Anda akan mempelajari lebih lanjut tentang objek dan cara mengakses metode melalui objek nanti dalam tutorial ini.)
+
+Penjelasan method <br>
+myMethod() is the name of the method <br>
+static means that the method belongs to the Main class and not an object of the Main class. You will learn more about objects and how to access methods through objects later in this tutorial. (static berarti bahwa metode tersebut milik kelas Utama dan bukan objek dari kelas Utama. Anda akan mempelajari lebih lanjut tentang objek dan cara mengakses metode melalui objek nanti dalam tutorial ini.) <br>
 void means that this method does not have a return value. You will learn more about return values later in this chapter-
-```
+
 
 Call a Method (memanggil method)
 
@@ -86,11 +86,10 @@ public class Main {
 <br><br><br>
 
 ### Java Methods Parameter
-```
-Parameters and Arguments
-Informasi dapat diteruskan ke metode sebagai parameter. Parameter bertindak sebagai variabel di dalam metode.
+
+Parameters and Arguments<br>
+Informasi dapat diteruskan ke metode sebagai parameter. Parameter bertindak sebagai variabel di dalam metode. <br>
 Parameter ditentukan setelah nama metode, di dalam tanda kurung. Anda dapat menambahkan parameter sebanyak yang Anda inginkan, cukup pisahkan dengan koma.
-```
 
 Contoh parameter dalam method
 
