@@ -119,6 +119,107 @@ Ford
 Mazda
 ```
 
+<br>
+<br>
+<br>
+
+### Contoh Break
+The break statement can also be used to jump out of a loop just like switch statement.
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    for (int i = 0; i < 10; i++) {
+      if (i == 4) {
+        break;
+      }
+      System.out.println(i);
+    }  
+  }
+}
+
+output: 
+0
+1
+2
+3
+```
+
+### Contoh Continue
+Pernyataan continue memecah satu iterasi (dalam loop), jika kondisi tertentu terjadi, dan berlanjut dengan iterasi berikutnya dalam loop.
+Contoh ini melewatkan nilai 4:
+
+```java
+for (int i = 0; i < 10; i++) {
+  if (i == 4) {
+    continue; //kalo diganti break perulangan cuma sampe 3
+  }
+  System.out.println(i);
+}
+
+output:
+0
+1
+2
+3
+5
+6
+7
+8
+9
+```
+
+### Break & Continue in While Loop
+
+Contoh Break
+```java
+public class Main {
+  public static void main(String[] args) {
+    int i = 0;
+    while (i < 10) {
+      System.out.println(i);
+      i++;
+      if (i == 4) {
+        break;
+      }
+    }  
+  }
+}
+
+output:
+0
+1
+2
+3
+```
+
+Contoh Continue
+```java
+public class Main {
+  public static void main(String[] args) {
+    int i = 0;
+    while (i < 10) {
+      if (i == 4) {
+        i++;
+        continue;
+      }
+      System.out.println(i);
+      i++;
+    }  
+  }
+}
+
+output:
+0
+1
+2
+3
+5
+6
+7
+8
+9
+```
 
 <br>
 <br>
