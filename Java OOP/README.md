@@ -19,7 +19,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary><H3>List Materi Java Basic</H3></summary>
+  <summary><H3>List Materi Java OOP</H3></summary>
   <ol>
     <li>
       <a href="https://github.com/falahdrrhmn/Tutorial-Java/tree/main/Java%20Basic#readme">Java OOP</a>
