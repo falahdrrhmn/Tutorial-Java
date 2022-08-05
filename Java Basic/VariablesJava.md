@@ -44,21 +44,79 @@
 
 ## Java Variables
 
-Jadi singkatnya gini, kalo di casting itu maksudnya merubah suatu tipe data, misalnya tipe data integer diubah jadi string etc. 
-Di Java sendiri terdapat dua jenis casting, yakni 
-1. Widening Casting (automatically) - mengubah tipe yang lebih kecil ke ukuran tipe yang lebih besar
-contohnya: 
-```js
-    byte -> short -> char -> int -> long -> float -> double
+Variables = tempat untuk nyimpan data
+1. String
+stores text, such as "Hello". String values are surrounded by double quotes
+
+2. int
+stores integers (whole numbers), without decimals, such as 123 or -123
+
+3. float
+stores floating point numbers, with decimals, such as 19.99 or -19.99
+
+4. char
+stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+
+5. boolean
+stores values with two states: true or false
+
+Contoh:
+```java
+int myNum = 15;
+System.out.println(myNum);
 ```
-2. Narrowing Casting (manually) - mengubah tipe yang lebih besar ke tipe ukuran yang lebih kecil
-contohnya: 
-```js
-   double -> float -> long -> int -> char -> short -> byte 
+
+```java
+int myNum;
+myNum = 15;
+System.out.println(myNum);
 ```
 
+```java
+final int myNum = 15;
+myNum = 20;  
 
+output:
+error: cannot assign a value to a final variable
+```
 
+```java
+int myNum = 5;
+float myFloatNum = 5.99f;
+char myLetter = 'D';
+boolean myBool = true;
+String myText = "Hello";
+```
+
+```java
+String name = "John";
+System.out.println("Hello " + name);
+```
+
+```java
+String firstName = "John ";
+String lastName = "Doe";
+String fullName = firstName + lastName;
+System.out.println(fullName);
+```
+
+```java
+int x = 5;
+int y = 6;
+System.out.println(x + y); // Print the value of x + y
+```
+
+```java
+int x = 5, y = 6, z = 50;
+System.out.println(x + y + z);
+```
+
+```java
+int x, y, z;
+x = y = z = 50;
+System.out.println(x + y + z);
+```
+itu bisa dipake semua jadi tinggal pilih sesuai kebutuhan
 
 
 <br>
