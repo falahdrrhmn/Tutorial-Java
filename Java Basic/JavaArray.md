@@ -44,17 +44,84 @@
 
 ## Java Array
 
-Jadi singkatnya gini, kalo di casting itu maksudnya merubah suatu tipe data, misalnya tipe data integer diubah jadi string etc. 
-Di Java sendiri terdapat dua jenis casting, yakni 
-1. Widening Casting (automatically) - mengubah tipe yang lebih kecil ke ukuran tipe yang lebih besar
-contohnya: 
-```js
-    byte -> short -> char -> int -> long -> float -> double
+Array digunakan untuk menyimpan beberapa nilai dalam satu variabel, alih-alih mendeklarasikan variabel terpisah untuk setiap nilai.
+Untuk mendeklarasikan array, tentukan tipe variabel dengan tanda kurung siku:
+Cara deklarasi array
+
+```java
+String[] cars;
 ```
-2. Narrowing Casting (manually) - mengubah tipe yang lebih besar ke tipe ukuran yang lebih kecil
-contohnya: 
-```js
-   double -> float -> long -> int -> char -> short -> byte 
+
+Untuk memasukkan nilai ke dalamnya, kita dapat menggunakan literal array - tempatkan nilai dalam daftar yang dipisahkan koma, di dalam kurung kurawal:
+Contoh array
+
+```java
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+int[] myNum = {10, 20, 30, 40};
+```
+
+Gunakan untuk menentukan index & memanggil
+
+```java
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+System.out.println(cars[0]);
+// Outputs Volvo
+```
+
+Ganti Elemen Pada Array
+
+```java
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+cars[0] = "Opel";
+System.out.println(cars[0]);
+// Now outputs Opel instead of Volvo
+```
+
+Array Length
+
+```java
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+System.out.println(cars.length);
+// Outputs 4
+```
+
+<br>
+<br>
+<br>
+
+### Loop Array
+Contoh Loop Array 
+
+```java
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+for (int i = 0; i < cars.length; i++) {
+  System.out.println(cars[i]);
+}
+
+output:
+Volvo
+BMW
+Ford
+Mazda
+```
+Loop Through an Array with For-Each
+Ada juga loop "untuk-setiap", yang digunakan secara eksklusif untuk mengulang elemen dalam array:
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    for (String i : cars) {
+      System.out.println(i);
+    }    
+  }
+}
+
+output:
+Volvo
+BMW
+Ford
+Mazda
 ```
 
 
