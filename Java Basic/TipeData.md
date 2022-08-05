@@ -45,18 +45,24 @@
 
 ## Tipe Data Java 
 
-Jadi singkatnya gini, kalo di casting itu maksudnya merubah suatu tipe data, misalnya tipe data integer diubah jadi string etc. 
-Di Java sendiri terdapat dua jenis casting, yakni 
-1. Widening Casting (automatically) - mengubah tipe yang lebih kecil ke ukuran tipe yang lebih besar
-contohnya: 
-```js
-    byte -> short -> char -> int -> long -> float -> double
+Macam tipe data:
+
+```java
+int myNum = 5;               // Integer (whole number)
+float myFloatNum = 5.99f;    // Floating point number
+char myLetter = 'D';         // Character
+boolean myBool = true;       // Boolean
+String myText = "Hello";     // String
 ```
-2. Narrowing Casting (manually) - mengubah tipe yang lebih besar ke tipe ukuran yang lebih kecil
-contohnya: 
-```js
-   double -> float -> long -> int -> char -> short -> byte 
+
+Tipe data dibagi menjadi 2
+
+```java
+Primitive data types      - includes byte, short, int, long, float, double, boolean and char
+Non-primitive data types  - such as String, Arrays and Classes
 ```
+
+<img width="530" alt="image" src="https://user-images.githubusercontent.com/92344349/182998549-cc3e73d3-8926-483b-9af2-ccba7368c088.png">
 
 
 
