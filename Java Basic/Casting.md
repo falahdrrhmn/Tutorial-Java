@@ -1,5 +1,4 @@
-<br />
-<div align="center">
+<div id="top" align="center">
   <h3 align="center">Java Basic</h3>
   <h1>Java Casting</h1>
 
@@ -11,9 +10,9 @@
     <br />
     <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/README.md">Java Basic</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Java OOP</a>
+    <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20OOP/README.md">Java OOP</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Java Data Structure</a>
+    <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Data%20Structure/README.md">Java Data Structure</a>
   </p>
 </div>
 
