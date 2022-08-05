@@ -47,14 +47,14 @@
 Beberapa fungsi Java adalah untuk develop mobile apps, web apps, desktop apps, games dll.
 1. Untuk manggi "Hello World": 
 ```java
-   public class Main {
-    public static void main(String[] args) {
-      System.out.println("Hello World");
-    }
-   }
-   
-   output:
-   Hello World
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+
+output:
+Hello World
 ```
 udah gitu aja 
 
