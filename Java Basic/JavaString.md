@@ -146,6 +146,54 @@ int y = 20;
 String z = x + y;  // z will be 1020 (a String)
 ```
 
+<br>
+
+### Java Special Characters
+
+<img width="563" alt="image" src="https://user-images.githubusercontent.com/92344349/182999723-f9c7e2cf-d928-4ba9-886f-d165f407dbbe.png">
+
+The sequence \"  inserts a double quote in a string:
+```java
+public class Main {
+  public static void main(String[] args) {
+    String txt = "We are the so-called \"Vikings\" from the north.";
+    System.out.println(txt);
+  }
+}
+
+output:
+We are the so-called "Vikings" from the north.
+```
+
+The sequence \"  inserts a double quote in a string:
+```java
+public class Main {
+  public static void main(String[] args) {
+    String txt = "It\'s alright.";
+    System.out.println(txt);
+  }
+}
+
+output:
+It's alright.
+```
+
+The sequence \\  inserts a single backslash in a string:
+```java
+public class Main {
+  public static void main(String[] args) {
+    String txt = "The character \\ is called backslash.";
+    System.out.println(txt);
+  }
+}
+
+output:
+The character \ is called backslash.
+```
+
+### Other common escape sequences that are valid in Java are:
+
+<img width="585" alt="image" src="https://user-images.githubusercontent.com/92344349/182999898-0bebecc4-673b-4b69-a0ed-56c29d33f7b8.png">
 
 
 <br>
