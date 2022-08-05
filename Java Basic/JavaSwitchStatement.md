@@ -43,21 +43,68 @@
 </details>
 
 ## Java Switch Statement
-
-Jadi singkatnya gini, kalo di casting itu maksudnya merubah suatu tipe data, misalnya tipe data integer diubah jadi string etc. 
-Di Java sendiri terdapat dua jenis casting, yakni 
-1. Widening Casting (automatically) - mengubah tipe yang lebih kecil ke ukuran tipe yang lebih besar
-contohnya: 
-```js
-    byte -> short -> char -> int -> long -> float -> double
 ```
-2. Narrowing Casting (manually) - mengubah tipe yang lebih besar ke tipe ukuran yang lebih kecil
-contohnya: 
-```js
-   double -> float -> long -> int -> char -> short -> byte 
+- The switch expression is evaluated once (dievaluasi sekali).
+- The value of the expression is compared with the values of each case.
+- If there is a match, the associated block of code is executed.
+- The break and default keywords are optional, and will be described later in this chapter
 ```
 
+contoh
+```java
+int day = 4;
+switch (day) {
+  case 1:
+    System.out.println("Monday");
+    break;
+  case 2:
+    System.out.println("Tuesday");
+    break;
+  case 3:
+    System.out.println("Wednesday");
+    break;
+  case 4:
+    System.out.println("Thursday");
+    break;
+  case 5:
+    System.out.println("Friday");
+    break;
+  case 6:
+    System.out.println("Saturday");
+    break;
+  case 7:
+    System.out.println("Sunday");
+    break;
+}
+// Outputs "Thursday" (day 4)
+```
 
+```java
+int day = 4;
+switch (day) {
+  case 6:
+    System.out.println("Today is Saturday");
+    break;
+  case 7:
+    System.out.println("Today is Sunday");
+    break;
+  default:
+    System.out.println("Looking forward to the Weekend");
+}
+// Outputs "Looking forward to the Weekend"
+```
+
+Kata kunci default menentukan beberapa kode untuk dijalankan jika tidak ada kasus yang cocok
+Note that if the default statement is used as the last statement in a switch block, it does not need a break.
+
+When Java reaches a break keyword, it breaks out of the switch block.
+(Ketika Java mencapai kata kunci break, ia keluar dari blok switch.)
+This will stop the execution of more code and case testing inside the block.
+(Ini akan menghentikan eksekusi lebih banyak kode dan pengujian kasus di dalam blok.)
+When a match is found, and the job is done, it's time for a break. There is no need for more testing.
+(Ketika kecocokan ditemukan, dan pekerjaan selesai, saatnya untuk istirahat. Tidak perlu untuk pengujian lebih lanjut.)
+A break can save a lot of execution time because it "ignores" the execution of all the rest of the code in the switch block.
+(Istirahat dapat menghemat banyak waktu eksekusi karena "mengabaikan" eksekusi semua sisa kode di blok switch.)
 
 
 
