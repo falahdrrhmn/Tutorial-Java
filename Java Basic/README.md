@@ -41,3 +41,16 @@
     </li>
   </ol>
 </details>
+
+
+<br>
+<br>
+
+<div align="center">
+    Follow me!<br>
+    <a href="https://bit.ly/3Qcg3s4">LinkedIn</a>
+    ·
+    <a href="https://bit.ly/3oRMMaA">Instagram</a>
+    ·
+    <a href="https://bit.ly/3zqrTrP">Youtube</a>
+</div>
