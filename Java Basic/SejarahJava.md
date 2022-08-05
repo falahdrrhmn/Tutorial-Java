@@ -44,39 +44,7 @@
 
 ## Sejarah Java
 
-Jadi singkatnya gini, kalo di casting itu maksudnya merubah suatu tipe data, misalnya tipe data integer diubah jadi string etc. 
-Di Java sendiri terdapat dua jenis casting, yakni 
-1. Widening Casting (automatically) - mengubah tipe yang lebih kecil ke ukuran tipe yang lebih besar
-contohnya: 
-```js
-    byte -> short -> char -> int -> long -> float -> double
-```
-2. Narrowing Casting (manually) - mengubah tipe yang lebih besar ke tipe ukuran yang lebih kecil
-contohnya: 
-```js
-   double -> float -> long -> int -> char -> short -> byte 
-```
-
-<h3>Widening Casting</h3>
-Widening Casting dilakukan secara otomatis saat meneruskan jenis ukuran yang lebih kecil ke jenis ukuran yang lebih besar:
-contohnya:
-
-```java
-    public class Main {
-        public static void main(String[] args) {
-        int myInt = 9;
-        double myDouble = myInt; // Automatic casting: int to double
-
-        System.out.println(myInt);
-        System.out.println(myDouble);
-  }
-}
-
-output:
-9
-9.0
-```
-
+Belom di update
 
 
 
