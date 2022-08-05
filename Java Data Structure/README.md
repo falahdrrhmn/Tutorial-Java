@@ -19,7 +19,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary><H3>List Materi Java OOP</H3></summary>
+  <summary><H3>List Materi Data Structure</H3></summary>
   <ol>
     <li>
       <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20OOP/README.md">Java Data Structure</a>
