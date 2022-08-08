@@ -39,116 +39,52 @@
 
 # Java Polymorphism
 
-Konstruktor di Java adalah metode khusus yang digunakan untuk menginisialisasi objek. Konstruktor dipanggil ketika objek kelas dibuat. Ini dapat digunakan untuk menetapkan nilai awal untuk atribut objek:
+Polimorfisme berarti "banyak bentuk", dan itu terjadi ketika kita memiliki banyak kelas yang terkait satu sama lain melalui pewarisan.
 
-contoh:
+Seperti yang kami tentukan di bab sebelumnya; Warisan memungkinkan kita mewarisi atribut dan metode dari kelas lain. Polimorfisme menggunakan metode tersebut untuk melakukan tugas yang berbeda. Ini memungkinkan kita untuk melakukan satu tindakan dengan cara yang berbeda.
+
+Misalnya, pikirkan superclass bernama Animal yang memiliki metode yang disebut animalSound(). Subkelas Hewan dapat berupa Babi, Kucing, Anjing, Burung - Dan mereka juga memiliki implementasi sendiri dari suara hewan (babi oinks, dan kucing mengeong, dll.):
+
 ```java
-// Create a Main class
-public class Main {
-  int x;
-
-  // Create a class constructor for the Main class
-  public Main() {
-    x = 5;
+class Animal {
+  public void animalSound() {
+    System.out.println("The animal makes a sound");
   }
+}
 
+class Pig extends Animal {
+  public void animalSound() {
+    System.out.println("The pig says: wee wee");
+  }
+}
+
+class Dog extends Animal {
+  public void animalSound() {
+    System.out.println("The dog says: bow wow");
+  }
+}
+
+class Main {
   public static void main(String[] args) {
-    Main myObj = new Main();
-    System.out.println(myObj.x);
+    Animal myAnimal = new Animal();
+    Animal myPig = new Pig();
+    Animal myDog = new Dog();
+        
+    myAnimal.animalSound();
+    myPig.animalSound();
+    myDog.animalSound();
   }
 }
 
 output:
-5
+The animal makes a sound
+The pig says: wee wee
+The dog says: bow wow
 ```
 
-Constuctor harus sesuai dengan namanya, constructor dipanggil saat object dibuat. 
-
-Semua kelas memiliki konstruktor secara default: jika Anda tidak membuat konstruktor kelas sendiri, Java akan membuatnya untuk Anda. Namun, Anda tidak dapat menetapkan nilai awal untuk atribut objek.
-
-<br><br><br>
-
-# Constructor Parameters
-```java
-public class Main {
-  int x;
-
-  public Main(int y) {
-    x = y;
-  }
-
-  public static void main(String[] args) {
-    Main myObj = new Main(5);
-    System.out.println(myObj.x);
-  }
-}
-
-output:
-5
-```
-
-You can have as many parameters as you want:
-
-```java
-public class Main {
-  int modelYear;
-  String modelName;
-
-  public Main(int year, String name) {
-    modelYear = year;
-    modelName = name;
-  }
-
-  public static void main(String[] args) {
-    Main myCar = new Main(1969, "Mustang");
-    System.out.println(myCar.modelYear + " " + myCar.modelName);
-  }
-}
-
-output:
-1969 Mustang
-```
-
-
-
-<br><br><br>
-
-
-# Menggunakan Multiple Class
-
-Main.java
-
-```java
-public class Main {
-  public void fullThrottle() {
-    System.out.println("The car is going as fast as it can!");
-  }
-
-  public void speed(int maxSpeed) {
-    System.out.println("Max speed is: " + maxSpeed);
-  }
-}
-```
-
-Second.java
-
-```java
-class Second {
-  public static void main(String[] args) {
-    Main myCar = new Main();     // Create a myCar object
-    myCar.fullThrottle();      // Call the fullThrottle() method
-    myCar.speed(200);          // Call the speed() method
-  }
-}
-
-output:
-The car is going as fast as it can!
-Max speed is: 200
-```
-
-
-
-
+Ingat dari bab Inheritance bahwa kita menggunakan kata kunci extends untuk menghargai dari sebuah kelas.
+Mengapa Dan Kapan Menggunakan "Warisan" dan "Polimorfisme"?
+- Berguna untuk penggunaan kembali kode: menggunakan kembali atribut dan metode kelas yang ada saat Anda membuat kelas baru.
 
 
 
