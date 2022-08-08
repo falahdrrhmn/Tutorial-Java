@@ -1,9 +1,10 @@
 <div id="top" align="center">
-  <h3 align="center">Java Basic</h3>
-  <h1>Syntax Dasar Hello World</h1>
+  <h3 align="center">Java OOP</h3>
+  <h1>Dasar Java OOP</h1>
+  <p align="center">(Java Object Oriented Programming)</p>
 
   <p align="center">
-    Menjelaskan basic syntax Java
+    Menjelaskan basic Java OOP
     <br />
     <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/README.md"><strong>Kembali ke menu utama »</strong></a>
     <br />
@@ -23,20 +24,14 @@
     <li>
       <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/README.md">Java Basic</a>
       <ul>
-        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/SejarahJava.md#top">Sejarah Java</a></li>
-        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/SyntaxDasar.md">Syntax Dasar Hello World!</a></li>
-        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/CommentsJava.md">Commant</a></li>
-        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/VariablesJava.md">Variables</a></li>
-        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/TipeData.md">Tipe Data</a></li>
-        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/Casting.md">Casting</a></li>
-        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/Operator.md">Operator</a></li>
-        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/JavaString.md">Java String</a></li>
-        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/JavaMath.md">Java Math</a></li>
-        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/JavaIf-elseStatement.md">Java If-else Statement</a></li>
-        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/JavaSwitchStatement.md">Java Switch Statement</a></li>
-        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/Looping.md">Built looping</a></li>
-        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/JavaArray.md">Java Array</a></li>
-        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/JavaMethods.md">Java Methods</a></li>
+        <li><a href="#prerequisites">Dasar OOP</a></li>
+        <li><a href="#installation">Class dan Object</a></li>
+        <li><a href="#built-with">Class Methods</a></li>
+        <li><a href="#built-with">Constructor</a></li>
+        <li><a href="#built-with">Encapsulation</a></li>
+        <li><a href="#built-with">Abstraction</a></li>
+        <li><a href="#built-with">Inheritance</a></li>
+        <li><a href="#built-with">Polymorphism</a></li>
       </ul>
     </li>
   </ol>
