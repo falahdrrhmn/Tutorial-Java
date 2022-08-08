@@ -19,12 +19,12 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary id="list"><H3>List Materi Java Basic</H3></summary>
+  <summary id="list"><H3>List Materi Java OOP</H3></summary>
   <ol>
     <li>
-      <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20Basic/README.md">Java Basic</a>
+      <a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20OOP/README.md">Java OOP</a>
       <ul>
-        <li><a href="#prerequisites">Dasar OOP</a></li>
+        <li><a href="https://github.com/falahdrrhmn/Tutorial-Java/blob/main/Java%20OOP/DasarOOP.md">Dasar OOP</a></li>
         <li><a href="#installation">Class dan Object</a></li>
         <li><a href="#built-with">Class Methods</a></li>
         <li><a href="#built-with">Constructor</a></li>
