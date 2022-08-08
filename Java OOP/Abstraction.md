@@ -37,114 +37,56 @@
   </ol>
 </details>
 
-# Java Abstraction
+# Abstract Classes and Methods
 
-Konstruktor di Java adalah metode khusus yang digunakan untuk menginisialisasi objek. Konstruktor dipanggil ketika objek kelas dibuat. Ini dapat digunakan untuk menetapkan nilai awal untuk atribut objek:
+Abstraksi data adalah proses menyembunyikan detail tertentu dan hanya menampilkan informasi penting kepada pengguna.
+Abstraksi dapat dicapai dengan kelas atau antarmuka abstrak (yang akan Anda pelajari lebih lanjut di bab berikutnya).
+
+The abstract keyword is a non-access modifier, used for classes and methods:
+
+1. Abstract class: is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
+
+2. Abstract method: can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from).
+
+An abstract class can have both abstract and regular methods:
 
 contoh:
 ```java
-// Create a Main class
-public class Main {
-  int x;
-
-  // Create a class constructor for the Main class
-  public Main() {
-    x = 5;
+// Abstract class
+abstract class Animal {
+  // Abstract method (does not have a body)
+  public abstract void animalSound();
+  // Regular method
+  public void sleep() {
+    System.out.println("Zzz");
   }
+}
 
+// Subclass (inherit from Animal)
+class Pig extends Animal {
+  public void animalSound() {
+    // The body of animalSound() is provided here
+    System.out.println("The pig says: wee wee");
+  }
+}
+
+class Main {
   public static void main(String[] args) {
-    Main myObj = new Main();
-    System.out.println(myObj.x);
+    Pig myPig = new Pig(); // Create a Pig object
+    myPig.animalSound();
+    myPig.sleep();
   }
 }
 
 output:
-5
+The pig says: wee wee
+Zzz
 ```
 
-Constuctor harus sesuai dengan namanya, constructor dipanggil saat object dibuat. 
+Mengapa Dan Kapan Menggunakan Kelas dan Metode Abstrak?
+Untuk mencapai keamanan - sembunyikan detail tertentu dan hanya tampilkan detail penting dari suatu objek.
 
-Semua kelas memiliki konstruktor secara default: jika Anda tidak membuat konstruktor kelas sendiri, Java akan membuatnya untuk Anda. Namun, Anda tidak dapat menetapkan nilai awal untuk atribut objek.
-
-<br><br><br>
-
-# Constructor Parameters
-```java
-public class Main {
-  int x;
-
-  public Main(int y) {
-    x = y;
-  }
-
-  public static void main(String[] args) {
-    Main myObj = new Main(5);
-    System.out.println(myObj.x);
-  }
-}
-
-output:
-5
-```
-
-You can have as many parameters as you want:
-
-```java
-public class Main {
-  int modelYear;
-  String modelName;
-
-  public Main(int year, String name) {
-    modelYear = year;
-    modelName = name;
-  }
-
-  public static void main(String[] args) {
-    Main myCar = new Main(1969, "Mustang");
-    System.out.println(myCar.modelYear + " " + myCar.modelName);
-  }
-}
-
-output:
-1969 Mustang
-```
-
-
-
-<br><br><br>
-
-
-# Menggunakan Multiple Class
-
-Main.java
-
-```java
-public class Main {
-  public void fullThrottle() {
-    System.out.println("The car is going as fast as it can!");
-  }
-
-  public void speed(int maxSpeed) {
-    System.out.println("Max speed is: " + maxSpeed);
-  }
-}
-```
-
-Second.java
-
-```java
-class Second {
-  public static void main(String[] args) {
-    Main myCar = new Main();     // Create a myCar object
-    myCar.fullThrottle();      // Call the fullThrottle() method
-    myCar.speed(200);          // Call the speed() method
-  }
-}
-
-output:
-The car is going as fast as it can!
-Max speed is: 200
-```
+Catatan: Abstraksi juga dapat dicapai dengan Antarmuka, yang akan Anda pelajari lebih lanjut di bab berikutnya.
 
 
 
