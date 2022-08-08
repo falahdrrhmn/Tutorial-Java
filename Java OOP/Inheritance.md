@@ -37,116 +37,47 @@
   </ol>
 </details>
 
-# Java Inheritance
+# Java Inheritance (Subclass and Superclass)
 
-Konstruktor di Java adalah metode khusus yang digunakan untuk menginisialisasi objek. Konstruktor dipanggil ketika objek kelas dibuat. Ini dapat digunakan untuk menetapkan nilai awal untuk atribut objek:
+Di Java, dimungkinkan untuk mewarisi atribut dan metode dari satu kelas ke kelas lainnya. Kami mengelompokkan "konsep pewarisan" ke dalam dua kategori:
 
-contoh:
+- subclass (anak) - kelas yang mewarisi dari kelas lain
+- superclass (induk) - kelas yang diwarisi dari
+
+To inherit from a class, use the **extends** keyword.
+
+Pada contoh di bawah, kelas Car (subclass) mewarisi atribut dan metode dari kelas Vehicle (superclass):
+
 ```java
-// Create a Main class
-public class Main {
-  int x;
-
-  // Create a class constructor for the Main class
-  public Main() {
-    x = 5;
+class Vehicle {
+  protected String brand = "Ford";
+  public void honk() {
+    System.out.println("Tuut, tuut!");
   }
+}
 
+class Car extends Vehicle {
+  private String modelName = "Mustang";
   public static void main(String[] args) {
-    Main myObj = new Main();
-    System.out.println(myObj.x);
+    Car myFastCar = new Car();
+    myFastCar.honk();
+    System.out.println(myFastCar.brand + " " + myFastCar.modelName);
   }
 }
 
 output:
-5
+Tuut, tuut!
+Ford Mustang
 ```
 
-Constuctor harus sesuai dengan namanya, constructor dipanggil saat object dibuat. 
+Did you notice the protected modifier in Vehicle?
 
-Semua kelas memiliki konstruktor secara default: jika Anda tidak membuat konstruktor kelas sendiri, Java akan membuatnya untuk Anda. Namun, Anda tidak dapat menetapkan nilai awal untuk atribut objek.
+We set the brand attribute in Vehicle to a protected access modifier. If it was set to private, the Car class would not be able to access it.
 
-<br><br><br>
+Why And When To Use "Inheritance"?
+- It is useful for code reusability: reuse attributes and methods of an existing class when you create a new class.
 
-# Constructor Parameters
-```java
-public class Main {
-  int x;
-
-  public Main(int y) {
-    x = y;
-  }
-
-  public static void main(String[] args) {
-    Main myObj = new Main(5);
-    System.out.println(myObj.x);
-  }
-}
-
-output:
-5
-```
-
-You can have as many parameters as you want:
-
-```java
-public class Main {
-  int modelYear;
-  String modelName;
-
-  public Main(int year, String name) {
-    modelYear = year;
-    modelName = name;
-  }
-
-  public static void main(String[] args) {
-    Main myCar = new Main(1969, "Mustang");
-    System.out.println(myCar.modelYear + " " + myCar.modelName);
-  }
-}
-
-output:
-1969 Mustang
-```
-
-
-
-<br><br><br>
-
-
-# Menggunakan Multiple Class
-
-Main.java
-
-```java
-public class Main {
-  public void fullThrottle() {
-    System.out.println("The car is going as fast as it can!");
-  }
-
-  public void speed(int maxSpeed) {
-    System.out.println("Max speed is: " + maxSpeed);
-  }
-}
-```
-
-Second.java
-
-```java
-class Second {
-  public static void main(String[] args) {
-    Main myCar = new Main();     // Create a myCar object
-    myCar.fullThrottle();      // Call the fullThrottle() method
-    myCar.speed(200);          // Call the speed() method
-  }
-}
-
-output:
-The car is going as fast as it can!
-Max speed is: 200
-```
-
-
+Tip: Also take a look at the next chapter, Polymorphism, which uses inherited methods to perform different tasks.
 
 
 
