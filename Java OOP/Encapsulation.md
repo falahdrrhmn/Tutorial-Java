@@ -37,116 +37,62 @@
   </ol>
 </details>
 
+
+
+
+
 # Java Encapsulation
 
-Konstruktor di Java adalah metode khusus yang digunakan untuk menginisialisasi objek. Konstruktor dipanggil ketika objek kelas dibuat. Ini dapat digunakan untuk menetapkan nilai awal untuk atribut objek:
+Tujuan enkapsulasi adalah memastikan bahwa data sensitif disembunyikan dari pengguna, dengan cara
+1. Deklarasi class variables/attributes sebagai private
+2. Menyediakan method get dan publik untuk mengakses dan memperbarui nilai private variabel 
 
-contoh:
+### Get and Set
+
+Private variabel hanya dapat diakses di dalam kelas yang sama (kelas luar tidak memiliki akses ke sana). Namun, dimungkinkan untuk mengaksesnya jika kita menyediakan method get dan set publik. contoh
+
+Person.java
 ```java
-// Create a Main class
-public class Main {
-  int x;
+public class Person {
+   private String name;
 
-  // Create a class constructor for the Main class
-  public Main() {
-    x = 5;
-  }
+   // Getter
+   public String getName() {
+     return name;
+   }
 
-  public static void main(String[] args) {
-    Main myObj = new Main();
-    System.out.println(myObj.x);
-  }
+   // Setter
+   public void setName(String newName) {
+     this.name = newName;
+   }
 }
-
-output:
-5
 ```
-
-Constuctor harus sesuai dengan namanya, constructor dipanggil saat object dibuat. 
-
-Semua kelas memiliki konstruktor secara default: jika Anda tidak membuat konstruktor kelas sendiri, Java akan membuatnya untuk Anda. Namun, Anda tidak dapat menetapkan nilai awal untuk atribut objek.
-
-<br><br><br>
-
-# Constructor Parameters
-```java
-public class Main {
-  int x;
-
-  public Main(int y) {
-    x = y;
-  }
-
-  public static void main(String[] args) {
-    Main myObj = new Main(5);
-    System.out.println(myObj.x);
-  }
-}
-
-output:
-5
-```
-
-You can have as many parameters as you want:
-
-```java
-public class Main {
-  int modelYear;
-  String modelName;
-
-  public Main(int year, String name) {
-    modelYear = year;
-    modelName = name;
-  }
-
-  public static void main(String[] args) {
-    Main myCar = new Main(1969, "Mustang");
-    System.out.println(myCar.modelYear + " " + myCar.modelName);
-  }
-}
-
-output:
-1969 Mustang
-```
-
-
-
-<br><br><br>
-
-
-# Menggunakan Multiple Class
 
 Main.java
-
 ```java
 public class Main {
-  public void fullThrottle() {
-    System.out.println("The car is going as fast as it can!");
-  }
-
-  public void speed(int maxSpeed) {
-    System.out.println("Max speed is: " + maxSpeed);
-  }
-}
-```
-
-Second.java
-
-```java
-class Second {
   public static void main(String[] args) {
-    Main myCar = new Main();     // Create a myCar object
-    myCar.fullThrottle();      // Call the fullThrottle() method
-    myCar.speed(200);          // Call the speed() method
+    Person myObj = new Person();
+    myObj.setName("John");
+    System.out.println(myObj.getName());
   }
 }
 
 output:
-The car is going as fast as it can!
-Max speed is: 200
+John
 ```
 
+### Kenapa Menggunakan Enkapsulasi
 
+1. Kontrol yang lebih baik dari atribut dan metode kelas
+2. Atribut class dapat dibuat read-only (jika Anda hanya menggunakan metode get), atau write-only (jika Anda hanya menggunakan metode set)
+3. Fleksibel: programmer dapat mengubah satu bagian dari kode tanpa mempengaruhi bagian lain
+4. Peningkatan keamanan data
+
+
+
+
+<br><br><br>
 
 
 
