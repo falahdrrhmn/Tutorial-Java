@@ -37,19 +37,7 @@
   </ol>
 </details>
 
-# Penjelasan Singkat Java OOP
 
-Di OOP ada yang anmanya class dan object, singkatnya gini
-
-<img width="565" alt="image" src="https://user-images.githubusercontent.com/92344349/183319757-5c862177-0276-4cdc-99b8-adf7633233f7.png">
-
-Kenapa harus OOP? kelebihan OOP dibanding pemrograman prosedural atau yang biasa 
-1. OOP lebih cepat dan lebih mudah untuk dieksekusi
-2. OOP menyediakan struktur yang jelas untuk program
-3. OOP membantu menjaga kode Java KERING "Jangan Ulangi Sendiri", dan membuat kode lebih mudah untuk dipelihara, dimodifikasi, dan di-debug
-4. OOP memungkinkan untuk membuat aplikasi penuh yang dapat digunakan kembali dengan lebih sedikit kode dan waktu pengembangan yang lebih singkat
-
-<br><br><br>
 
 # Class & Object
 
