@@ -137,6 +137,141 @@ class Second {
 output:
 5
 ```
+### Java Class Attributes
+
+Atribut itu panggilan buat variabel yang ada di dalam class, contoh
+
+class Main punya attributes x dan y
+```java
+public class Main {
+  int x = 5;
+  int y = 3;
+}
+```
+Selain attributes juga bisa dipanggil **fields**
+
+### Mengakses Attributes
+
+Mengakses atribut dengan membuat objek kelas, dan dengan menggunakan sintaks titik (.): 
+
+gini contohnya
+
+Buat objek bernama "myObj" dan cetak nilai x:
+
+```java
+public class Main {
+  int x = 5;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println(myObj.x);
+  }
+}
+
+output:
+5
+```
+
+### Ubah Attributes
+
+```java
+public class Main {
+  int x;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    myObj.x = 40;
+    System.out.println(myObj.x);
+  }
+}
+
+output:
+40
+```
+
+Atau ganti nilai yang ada:
+
+```java
+public class Main {
+  int x = 10;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    myObj.x = 25; // x is now 25
+    System.out.println(myObj.x);
+  }
+}
+
+output:
+25
+```
+
+Jika Anda tidak ingin kemampuan untuk mengganti nilai yang ada, nyatakan atribut sebagai **final**:
+
+```java
+public class Main {
+  final int x = 10;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    myObj.x = 25; // will generate an error
+    System.out.println(myObj.x); 
+  }
+}
+
+output:
+error
+```
+
+### Multiple Objects
+
+
+Jika Anda membuat beberapa objek dari satu kelas, Anda dapat mengubah nilai atribut di satu objek, tanpa memengaruhi nilai atribut di objek lainnya:
+
+```java
+public class Main {
+  int x = 5;
+
+  public static void main(String[] args) {
+    Main myObj1 = new Main();
+    Main myObj2 = new Main();
+    myObj2.x = 25;
+    System.out.println(myObj1.x);
+    System.out.println(myObj2.x);
+  }
+}
+
+output:
+5
+25
+```
+
+### Multiple Attributes
+
+Anda dapat menentukan atribut sebanyak yang Anda inginkan:
+
+```java
+public class Main {
+  String fname = "John";
+  String lname = "Doe";
+  int age = 24;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println("Name: " + myObj.fname + " " + myObj.lname);
+    System.out.println("Age: " + myObj.age);
+  }
+}
+
+output:
+Name: John Doe
+Age: 24
+```
+
+
+
+
+
 
 
 
