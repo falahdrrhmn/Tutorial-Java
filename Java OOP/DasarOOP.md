@@ -37,85 +37,111 @@
   </ol>
 </details>
 
-## Syntax Java
+# Penjelasan Singkat Java OOP
 
-Beberapa fungsi Java adalah untuk develop mobile apps, web apps, desktop apps, games dll.
-1. Untuk manggi "Hello World": 
+Di OOP ada yang anmanya class dan object, singkatnya gini
+
+<img width="565" alt="image" src="https://user-images.githubusercontent.com/92344349/183319757-5c862177-0276-4cdc-99b8-adf7633233f7.png">
+
+Kenapa harus OOP? kelebihan OOP dibanding pemrograman prosedural atau yang biasa 
+1. OOP lebih cepat dan lebih mudah untuk dieksekusi
+2. OOP menyediakan struktur yang jelas untuk program
+3. OOP membantu menjaga kode Java KERING "Jangan Ulangi Sendiri", dan membuat kode lebih mudah untuk dipelihara, dimodifikasi, dan di-debug
+4. OOP memungkinkan untuk membuat aplikasi penuh yang dapat digunakan kembali dengan lebih sedikit kode dan waktu pengembangan yang lebih singkat
+
+<br><br><br>
+
+# Class & Object
+
+Java adalah bahasa pemrograman berorientasi objek.
+Dalam kehidupan nyata, mobil adalah sebuah objek. Mobil memiliki atribut, seperti berat dan warna, dan metode, seperti drive dan rem.
+
+## Cara membuat Kelas
+
+cara buat class ketik **class** terus kasi nama kelas, kayak gini contohnya
+
+```java
+public class contohClass {
+  int x = 10;
+}
+```
+
+Kelas itu sama aja kayak class dari yang sebelumnya udah dibuat
+
+di java object dibuat dari sebuah class, gini contohnya 
+
 ```java
 public class Main {
+  int x = 5;
+
   public static void main(String[] args) {
-    System.out.println("Hello World");
+    Main myObj = new Main();
+    System.out.println(myObj.x);
   }
 }
 
 output:
-Hello World
+5
 ```
-udah gitu aja. btw Setiap bahasa pemrograman Java harus berada di dalam class dan nama class harus sama dengan nama yang "Main"+ Java merupakan bahasa yang sensitif jadi huruf besar dan kecil bisa mengakibatkan error
+
+### Multiple Object
+
+Di java object bisa dipanggil berkali2, contoh
 
 ```java
+public class Main {
+  int x = 5;
+
   public static void main(String[] args) {
-    System.out.println("Hello World");
+    Main myObj1 = new Main();
+    Main myObj2 = new Main();
+    System.out.println(myObj1.x);
+    System.out.println(myObj2.x);
   }
+}public class Main {
+  int x = 5;
 
-output:
-Hello World
+  public static void main(String[] args) {
+    Main myObj1 = new Main();
+    Main myObj2 = new Main();
+    System.out.println(myObj1.x);
+    System.out.println(myObj2.x);
+  }
+}
+
+output: 
+5
+5
 ```
-Code yang ada di dalam main method akan dieksekusi. output
 
+### Multiple Class
+
+Kita bisa bikin object class & diakses di class lain, cara ini sering digunakan untuk organisasi kelas yang lebih baik (satu kelas memiliki semua atribut dan metode, sedangkan kelas lainnya memegang metode main() (kode yang akan dieksekusi)). contoh
+
+Main.java
 ```java
-System.out.println("Hello World!");
-output:
-Hello World!
-
-System.out.println(3 + 3);
-output:
-6
+public class Main {
+  int x = 5;
+}
 ```
 
-ada perbedaan antara println() method  dengan print() method
-contoh println
-
+Second.java
 ```java
-System.out.println("Hello World!");
-System.out.println("Hello World!");
+class Second {
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println(myObj.x);
+  }
+}
 
 output:
-Hello world!
-Hello world!
-```
-Contoh print
-
-```java
-System.out.print("Hello World!");
-System.out.print("Hello World!");
-
-output:
-Hello world!Hello world!
+5
 ```
 
 
-## Alasan Menggunakan Java
-<ul>
-  <li>Java bekerja pada platform yang berbeda (Windows, Mac, Linux, Raspberry Pi, dll.)</li>
-  <li>Java salah satu bahasa pemrograman paling populer di dunia</li>
-  <li>Mudah dipelajari dan mudah digunakan</li>
-  <li>Java open-source dan gratis</li>
-  <li>Java aman, cepat, dan kuat</li>
-  <li>Java memiliki dukungan komunitas yang sangat besar (puluhan juta pengembang)</li>
-  <li>Java adalah bahasa berorientasi objek yang memberikan struktur yang jelas untuk program dan memungkinkan kode untuk digunakan kembali, menurunkan biaya pengembangan</li>
-  <li>Karena Java dekat dengan C++ dan C#, memudahkan programmer untuk beralih ke Java atau sebaliknya</li>  
-</ul>
-      
-## Java Banyak Digunakan Untuk
-<ul>
-  <li>Mobile applications (specially Android apps)</li>
-  <li>Desktop applications</li>
-  <li>Web applications</li>
-  <li>Web servers and application servers</li>
-  <li>Games</li>
-  <li>Database connection</li>    
-</ul>
+
+
+
 
 <br>
 <br>
