@@ -37,239 +37,166 @@
   </ol>
 </details>
 
-# Penjelasan Singkat Java OOP
+# Penjelasan Singkat Method pada Materi sebelumnya
 
-Di OOP ada yang anmanya class dan object, singkatnya gini
+Method di class sebelumnya ada 2, yakni method void (yg gada return value) sama method biasa
 
-<img width="565" alt="image" src="https://user-images.githubusercontent.com/92344349/183319757-5c862177-0276-4cdc-99b8-adf7633233f7.png">
-
-Kenapa harus OOP? kelebihan OOP dibanding pemrograman prosedural atau yang biasa 
-1. OOP lebih cepat dan lebih mudah untuk dieksekusi
-2. OOP menyediakan struktur yang jelas untuk program
-3. OOP membantu menjaga kode Java KERING "Jangan Ulangi Sendiri", dan membuat kode lebih mudah untuk dipelihara, dimodifikasi, dan di-debug
-4. OOP memungkinkan untuk membuat aplikasi penuh yang dapat digunakan kembali dengan lebih sedikit kode dan waktu pengembangan yang lebih singkat
-
-<br><br><br>
-
-# Class & Object
-
-Java adalah bahasa pemrograman berorientasi objek.
-Dalam kehidupan nyata, mobil adalah sebuah objek. Mobil memiliki atribut, seperti berat dan warna, dan metode, seperti drive dan rem.
-
-## Cara membuat Kelas
-
-cara buat class ketik **class** terus kasi nama kelas, kayak gini contohnya
-
-```java
-public class contohClass {
-  int x = 10;
-}
-```
-
-Kelas itu sama aja kayak class dari yang sebelumnya udah dibuat
-
-di java object dibuat dari sebuah class, gini contohnya 
-
+Method tanpa return value
 ```java
 public class Main {
-  int x = 5;
-
-  public static void main(String[] args) {
-    Main myObj = new Main();
-    System.out.println(myObj.x);
+  static void myMethod(String fname, int age) {
+    System.out.println(fname + " is " + age);
   }
-}
-
-output:
-5
-```
-
-### Multiple Object
-
-Di java object bisa dipanggil berkali2, contoh
-
-```java
-public class Main {
-  int x = 5;
 
   public static void main(String[] args) {
-    Main myObj1 = new Main();
-    Main myObj2 = new Main();
-    System.out.println(myObj1.x);
-    System.out.println(myObj2.x);
-  }
-}public class Main {
-  int x = 5;
-
-  public static void main(String[] args) {
-    Main myObj1 = new Main();
-    Main myObj2 = new Main();
-    System.out.println(myObj1.x);
-    System.out.println(myObj2.x);
+    myMethod("Liam", 5);
+    myMethod("Jenny", 8);
+    myMethod("Anja", 31);
   }
 }
 
 output: 
-5
-5
+Liam is 5
+Jenny is 8
+Anja is 31
+
 ```
+When a parameter is passed to the method, it is called an argument. So, from the example above: fname is a parameter, while Liam, Jenny and Anja are arguments.
 
-### Multiple Class
+public, private, default, protected itu access modifier
 
-Kita bisa bikin object class & diakses di class lain, cara ini sering digunakan untuk organisasi kelas yang lebih baik (satu kelas memiliki semua atribut dan metode, sedangkan kelas lainnya memegang metode main() (kode yang akan dieksekusi)). contoh
-
-Main.java
+Method dengan return value
 ```java
 public class Main {
-  int x = 5;
+  static int myMethod(int x, int y) {
+    return x + y;
+  }
+
+  public static void main(String[] args) {
+    int z = myMethod(5, 3);
+    System.out.println(z);
+  }
+}
+
+output:
+8
+```
+
+<br><br><br>
+
+# Method Static vs. Non-Static
+
+Singkatnya Ada Method static dan metode non-static (public). bedanya apa? Kalo static bisa diakses tanpa perlu buat object class, beda sama public yang hanya bisa diakses oleh object. contoh:
+
+```java
+public class Main {
+  // Static method
+  static void myStaticMethod() {
+    System.out.println("Static methods can be called without creating objects");
+  }
+
+  // Public method
+  public void myPublicMethod() {
+    System.out.println("Public methods must be called by creating objects");
+  }
+
+  // Main method
+  public static void main(String[] args) {
+    myStaticMethod(); // Call the static method
+
+    Main myObj = new Main(); // Create an object of MyClass
+    myObj.myPublicMethod(); // Call the public method
+  }
+}
+
+output:
+Static methods can be called without creating objects
+Public methods must be called by creating objects
+```
+<br><br><br>
+
+# Access Methods With an Object
+
+contoh
+```java
+// Create a Main class
+public class Main {
+ 
+  // Create a fullThrottle() method
+  public void fullThrottle() {
+    System.out.println("The car is going as fast as it can!");
+  }
+
+  // Create a speed() method and add a parameter
+  public void speed(int maxSpeed) {
+    System.out.println("Max speed is: " + maxSpeed);
+  }
+
+  // Inside main, call the methods on the myCar object
+  public static void main(String[] args) {
+    Main myCar = new Main();     // Create a myCar object
+    myCar.fullThrottle();      // Call the fullThrottle() method
+    myCar.speed(200);          // Call the speed() method
+  }
+}
+
+output:
+The car is going as fast as it can!
+Max speed is: 200
+```
+
+Penjelasan:
+1) Membuat kelas Utama dengan nama Main
+
+2) Membuat metohod fullThrottle() dan speed() di kelas Main.
+
+3) Metode fullThrottle() dan metode speed() akan mencetak beberapa teks, saat dipanggil.
+
+4) Metode speed() menerima parameter int yang disebut maxSpeed - kita akan menggunakan ini di 8).
+
+5) Untuk menggunakan kelas Utama dan metodenya, kita perlu membuat objek dari Kelas Utama.
+
+6) Kemudian, masuk ke metode main(), yang Anda tahu sekarang adalah metode Java bawaan yang menjalankan program Anda (kode apa pun di dalam main dieksekusi).
+
+7) Dengan menggunakan kata kunci baru kami membuat objek dengan nama myCar.
+
+8) Kemudian, kita memanggil metode fullThrottle() dan speed() pada objek myCar, dan menjalankan program menggunakan nama objek (myCar), diikuti dengan titik (.), diikuti dengan nama metode ( fullThrottle(); dan kecepatan(200);). Perhatikan bahwa kita menambahkan parameter int 200 di dalam metode speed().
+
+
+<br><br><br>
+
+
+# Menggunakan Multiple Class
+
+Main.java
+
+```java
+public class Main {
+  public void fullThrottle() {
+    System.out.println("The car is going as fast as it can!");
+  }
+
+  public void speed(int maxSpeed) {
+    System.out.println("Max speed is: " + maxSpeed);
+  }
 }
 ```
 
 Second.java
+
 ```java
 class Second {
   public static void main(String[] args) {
-    Main myObj = new Main();
-    System.out.println(myObj.x);
+    Main myCar = new Main();     // Create a myCar object
+    myCar.fullThrottle();      // Call the fullThrottle() method
+    myCar.speed(200);          // Call the speed() method
   }
 }
 
 output:
-5
+The car is going as fast as it can!
+Max speed is: 200
 ```
-### Java Class Attributes
-
-Atribut itu panggilan buat variabel yang ada di dalam class, contoh
-
-class Main punya attributes x dan y
-```java
-public class Main {
-  int x = 5;
-  int y = 3;
-}
-```
-Selain attributes juga bisa dipanggil **fields**
-
-### Mengakses Attributes
-
-Mengakses atribut dengan membuat objek kelas, dan dengan menggunakan sintaks titik (.): 
-
-gini contohnya
-
-Buat objek bernama "myObj" dan cetak nilai x:
-
-```java
-public class Main {
-  int x = 5;
-
-  public static void main(String[] args) {
-    Main myObj = new Main();
-    System.out.println(myObj.x);
-  }
-}
-
-output:
-5
-```
-
-### Ubah Attributes
-
-```java
-public class Main {
-  int x;
-
-  public static void main(String[] args) {
-    Main myObj = new Main();
-    myObj.x = 40;
-    System.out.println(myObj.x);
-  }
-}
-
-output:
-40
-```
-
-Atau ganti nilai yang ada:
-
-```java
-public class Main {
-  int x = 10;
-
-  public static void main(String[] args) {
-    Main myObj = new Main();
-    myObj.x = 25; // x is now 25
-    System.out.println(myObj.x);
-  }
-}
-
-output:
-25
-```
-
-Jika Anda tidak ingin kemampuan untuk mengganti nilai yang ada, nyatakan atribut sebagai **final**:
-
-```java
-public class Main {
-  final int x = 10;
-
-  public static void main(String[] args) {
-    Main myObj = new Main();
-    myObj.x = 25; // will generate an error
-    System.out.println(myObj.x); 
-  }
-}
-
-output:
-error
-```
-
-### Multiple Objects
-
-
-Jika Anda membuat beberapa objek dari satu kelas, Anda dapat mengubah nilai atribut di satu objek, tanpa memengaruhi nilai atribut di objek lainnya:
-
-```java
-public class Main {
-  int x = 5;
-
-  public static void main(String[] args) {
-    Main myObj1 = new Main();
-    Main myObj2 = new Main();
-    myObj2.x = 25;
-    System.out.println(myObj1.x);
-    System.out.println(myObj2.x);
-  }
-}
-
-output:
-5
-25
-```
-
-### Multiple Attributes
-
-Anda dapat menentukan atribut sebanyak yang Anda inginkan:
-
-```java
-public class Main {
-  String fname = "John";
-  String lname = "Doe";
-  int age = 24;
-
-  public static void main(String[] args) {
-    Main myObj = new Main();
-    System.out.println("Name: " + myObj.fname + " " + myObj.lname);
-    System.out.println("Age: " + myObj.age);
-  }
-}
-
-output:
-Name: John Doe
-Age: 24
-```
-
-
-
 
 
 
