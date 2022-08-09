@@ -198,6 +198,8 @@ The car is going as fast as it can!
 Max speed is: 200
 ```
 
+contoh lain method static dan non-static
+https://bapakngoding.blogspot.com/2019/11/mengenal-class-method-static-dan-non.html
 
 
 
