@@ -86,7 +86,7 @@
         <ul>
           <li><a href="https://github.com/falahdrrhmn/DeretFibonacciJava">Deret Fibonacci Java</a></li>
           <li><a href="https://github.com/falahdrrhmn/JavaLain">Looping Bersarang</a></li>
-          <li><a href="https://github.com/falahdrrhmn/JavaLain"></a></li>
+          <li><a href="https://github.com/falahdrrhmn/JavaLain">Diamond Alphabet Pattern</a></li>
         </ul>
     </li>
   </ol>
