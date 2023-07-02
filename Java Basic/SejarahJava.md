@@ -45,8 +45,6 @@
 ## Sejarah Java
 
 <p>
-  Tentu! Berikut ini adalah ringkasan sejarah bahasa pemrograman Java:
-
 Java adalah bahasa pemrograman yang diciptakan oleh James Gosling, Patrick Naughton, dan tim mereka di Sun Microsystems pada tahun 1991. Pada awalnya, Java dirancang sebagai bahasa pemrograman untuk perangkat elektronik konsumen, seperti mesin cuci dan set-top box. Namun, rencana tersebut tidak terwujud, dan Java kemudian ditemukan cocok untuk pengembangan aplikasi web.
 
 Java pertama kali dirilis pada tahun 1995 dengan nama "Java 1.0" dan segera mendapatkan popularitas karena kemampuannya yang platform-independen. Artinya, program Java dapat dijalankan di berbagai sistem operasi seperti Windows, macOS, dan Linux, tanpa perlu mengubah kode sumber aslinya. Ini dicapai dengan menggunakan Java Virtual Machine (JVM), yang berfungsi sebagai lingkungan eksekusi untuk program Java.
@@ -62,10 +60,7 @@ Pada tahun 2006, Sun Microsystems merilis Java sebagai perangkat lunak sumber te
 Sejak itu, Java terus berkembang dan diperbarui. Versi Java yang terkenal termasuk Java SE 7 (rilis pada tahun 2011), Java SE 8 (rilis pada tahun 2014) dengan penambahan fitur-fitur seperti ekspresi lambda dan Stream API, dan Java SE 9 (rilis pada tahun 2017) dengan adopsi modul dan pembaruan lainnya.
 
 Java tetap menjadi salah satu bahasa pemrograman paling populer dan banyak digunakan di dunia, digunakan untuk mengembangkan berbagai jenis aplikasi, termasuk aplikasi desktop, web, mobile, permainan, dan banyak lagi.
-  
 </p>
-
-
 
 <br>
 <br>
